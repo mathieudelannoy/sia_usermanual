@@ -1,0 +1,213 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4. Le formulaire UE &mdash; Système d&#39;information archéologique v0.1 documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Système d&#39;information archéologique v0.1 documentation" href="../index.html" />
+    <link rel="next" title="5. Nom" href="formulaire_mobilier.html" />
+    <link rel="prev" title="3. Le formulaire Projet" href="formulaire_projet.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="formulaire_mobilier.html" title="5. Nom"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="formulaire_projet.html" title="3. Le formulaire Projet"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../index.html">Système d&#39;information archéologique v0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="le-formulaire-ue">
+<h1>4. Le formulaire UE<a class="headerlink" href="#le-formulaire-ue" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="description">
+<h2>4.1. Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>Une unité d&#8217;enregistrement (UE) est un terme généraliste destiné à enregistrer individuellement une structure, un niveau , une tranchée, etc.</p>
+<p>Le formulaire permet de renseigner les informations générales concernant directement l&#8217;UE mais également tous les renseignements associés tel que la documentation, la composition géologique, etc.</p>
+</div>
+<div class="section" id="renseigner">
+<h2>4.2. Renseigner<a class="headerlink" href="#renseigner" title="Permalink to this headline">¶</a></h2>
+<p>On procède à la création d&#8217;une nouvelle UE en passant par le formulaire projet et le bouton <em>créer</em> (cette fonction est limitée aux rôles ayant ce droit).</p>
+<p>L&#8217;UE est automatiquement liée au projet dans laquelle elle a été créée (il n&#8217;est pas possible de lier une UE à plusieurs projets).</p>
+<p>Les possibilités de suppression d&#8217;une UE sont réduites, la procédure retenue consiste à l&#8217;annuler (cela permet de conserver l&#8217;information en cas de volonté de la rétablir).</p>
+<p>Le vocabulaire employé dans les listes est sciemment réduit dans le but d&#8217;obtenir une description homogène des UE et de faciliter les recherches croisées. Ces termes ont été employés et validés sur plusieurs dizaines d&#8217;opérations.</p>
+<div class="section" id="les-informations-generales">
+<h3>4.2.1. Les informations générales<a class="headerlink" href="#les-informations-generales" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="description-des-champs">
+<h4>4.2.1.1. Description des champs<a class="headerlink" href="#description-des-champs" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><strong>Numéro</strong> : c&#8217;est le numéro de l&#8217;unité d&#8217;enregistrement, il doit être unique et se composer d&#8217;un chiffre entier (sans virgule). Il s&#8217;agit du seul champ dont la saisie a un caractère <strong>obligatoire</strong> pour pouvoir procéder à l&#8217;enregistrement.</li>
+<li><strong>Ancien identifiant</strong> : ce champ est employé pour conserver les identifiants qui ne sont pas des chiffres entiers mais des chaînes de caractères variables (mII-c15). Ce champ n&#8217;est pas obligatoire et est destiné aux opérations et collections anciennes.</li>
+<li><strong>Type</strong> : ce champ est une liste déroulante permettant d&#8217;indiquer s&#8217;il s&#8217;agit d&#8217;une structure, d&#8217;un niveau, d&#8217;un ensemble, d&#8217;une tranchée, d&#8217;un sondage.</li>
+<li><strong>Nature</strong> : indiquer la nature de l&#8217;unité d&#8217;enregistrement en sélectionnant dans la liste déroulante le terme le plus approchant</li>
+<li><strong>Interprétation</strong> : indiquer l&#8217;interprétation de l&#8217;unité d&#8217;enregistrement en sélectionnant dans la liste déroulante le terme le plus approchant</li>
+<li><strong>Commentaire</strong> : si nécessaire, vous pouvez décrire plus en détail cette unité d&#8217;enregistrement (quelques paragraphes au maximum). Il est déconseillé d&#8217;y faire figurer ce qui est ou peut être  décrit dans un autre champ.</li>
+<li><strong>TPQ</strong> : Terminus Post Quem, il s&#8217;agit de la date plancher (la plus ancienne). Pour mentionner une date avant notre ère il faut rajouter un <strong>-</strong> devant et non pas <em>avant J.-C</em>. Les dates exprimées n&#8217;ont pas à être des valeurs absolues mais peuvent simplement se comprendre comme les bornes d&#8217;une période.</li>
+<li><strong>TAQ</strong> : Terminus Ante Quem, il s&#8217;agit de la date plafond (la plus récente). Pour mentionner une date avant notre ère il faut rajouter un - devant. Les dates exprimées n&#8217;ont pas à être des valeurs absolues mais peuvent simplement se comprendre comme les bornes d&#8217;une période.</li>
+<li><strong>Plan</strong> : Forme géométrique générale en plan</li>
+<li><strong>Profil fond</strong> : Forme géométrique générale de la paroi verticale</li>
+<li><strong>Profil paroi</strong> : Forme géométrique générale du fond</li>
+</ul>
+</div>
+</div>
+<div class="section" id="les-informations-geographiques">
+<h3>4.2.2. Les informations géographiques<a class="headerlink" href="#les-informations-geographiques" title="Permalink to this headline">¶</a></h3>
+<p>Attente procédure d&#8217;importation</p>
+</div>
+<div class="section" id="les-informations-stratigraphiques">
+<h3>4.2.3. Les informations stratigraphiques<a class="headerlink" href="#les-informations-stratigraphiques" title="Permalink to this headline">¶</a></h3>
+<p>Le renseignement de l&#8217;enregistrement stratigraphique se fait de la manière suivante :</p>
+<ol class="arabic simple">
+<li>Placez-vous dans une fiche d&#8217;UE</li>
+<li>Cliquez sur le bouton vert <strong>Sélection vide</strong> situé en haut à droite du formulaire</li>
+<li>Cliquez ensuite sur <em>Ajouter l’objet courant à la sélection</em>, le bouton de sélection affiche maintenant &#8220;<em>1 UE</em>&#8220;</li>
+<li>Recommencez cette manipulation sur plusieurs autres UE, elles viendront s&#8217;ajouter à la sélection</li>
+<li>Déplacez-vous maintenant dans l&#8217;UE destinée à être la relation stratigraphique et cliquez de nouveau sur le bouton de sélection. La sélection liste alors toutes les UE que vous avez précédemment retenues.</li>
+<li>Choisissez dans liste déroulante la caractérisation de la relation puis cliquez sur le bouton <em>Associer à l&#8217;UE courante</em></li>
+</ol>
+<p>Une relation stratigraphique est maintenant établie entre toutes les UE de la sélection et l&#8217;UE cible.</p>
+<p>Attente affichage des relations
+Attente reciprocité de la relation</p>
+</div>
+<div class="section" id="les-informations-geologiques">
+<h3>4.2.4. Les informations géologiques<a class="headerlink" href="#les-informations-geologiques" title="Permalink to this headline">¶</a></h3>
+<p>Chaque UE dispose d&#8217;un bloc nommé <strong>Composition géologique</strong> placé en-dessous des champs généralistes, il permet d&#8217;enregistrer les multiples matrices avec les champs suivants :</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Primaire</strong> : dans le cas où il y aurait plusieurs matrices géologiques pour une même UE, le fait de cochez cette case permet de déterminer la matrice qui  est dominante.</li>
+<li><strong>Texture</strong> : Type de sédiment après estimation tactile de la composition granulométrique (argile, limon, sable, gravier, cailloutis, pierres/blocs)</li>
+<li><strong>Munsell</strong> : le code Munsell est un système d’identification des couleurs permettant de palier aux différences de perceptions.</li>
+<li><strong>Compacite</strong> : cette liste renseigne la compacité de la matrice (meuble, compact, etc.).</li>
+<li><strong>Homogéinité</strong> : cette liste indique l&#8217;état d&#8217;homogénéité  de la matrice (homogène, hétérogène, stratifié).</li>
+</ul>
+</div></blockquote>
+<p>Une inclusion est un élément externe englobé dans la matrice sédimentaire, il est possible de renseigner le ou les inclusions présentes dans une matrice :</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Taille</strong> : cette liste donne une indication sommaire sur les dimensions de l&#8217;inclusion. Si aucune mesure ne convient, il est probable qu&#8217;il ne s&#8217;agisse pas d&#8217;une inclusion. Le mobilier ne correspond pas à une inclusion.</li>
+<li><strong>Nature</strong> : cette liste permet de caractériser l&#8217;inclusion en utilisant les termes les plus fréquemment employés</li>
+<li><strong>Concentration</strong> : cette liste indique quelle est la concentration des inclusions dans la matrice</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="la-chronologie">
+<h3>4.2.5. La chronologie<a class="headerlink" href="#la-chronologie" title="Permalink to this headline">¶</a></h3>
+<p>Attente des phases et périodes</p>
+</div>
+<div class="section" id="la-documentation">
+<h3>4.2.6. La documentation<a class="headerlink" href="#la-documentation" title="Permalink to this headline">¶</a></h3>
+<p>Attente du formulaire doc</p>
+</div>
+</div>
+<div class="section" id="comparaison-avec-les-inventaires-excel">
+<h2>4.3. Comparaison avec les inventaires excel<a class="headerlink" href="#comparaison-avec-les-inventaires-excel" title="Permalink to this headline">¶</a></h2>
+<p>La principale différence avec le fichier inventaire_ue.xls est la possibilité de pouvoir lier toute la documentation relative à UE et d&#8217;y accéder en ne passant que par un seul formulaire.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">4. Le formulaire UE</a><ul>
+<li><a class="reference internal" href="#description">4.1. Description</a></li>
+<li><a class="reference internal" href="#renseigner">4.2. Renseigner</a><ul>
+<li><a class="reference internal" href="#les-informations-generales">4.2.1. Les informations générales</a><ul>
+<li><a class="reference internal" href="#description-des-champs">4.2.1.1. Description des champs</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#les-informations-geographiques">4.2.2. Les informations géographiques</a></li>
+<li><a class="reference internal" href="#les-informations-stratigraphiques">4.2.3. Les informations stratigraphiques</a></li>
+<li><a class="reference internal" href="#les-informations-geologiques">4.2.4. Les informations géologiques</a></li>
+<li><a class="reference internal" href="#la-chronologie">4.2.5. La chronologie</a></li>
+<li><a class="reference internal" href="#la-documentation">4.2.6. La documentation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#comparaison-avec-les-inventaires-excel">4.3. Comparaison avec les inventaires excel</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="formulaire_projet.html"
+                        title="previous chapter">3. Le formulaire Projet</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="formulaire_mobilier.html"
+                        title="next chapter">5. Nom</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/manuel/formulaire_ue.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="formulaire_mobilier.html" title="5. Nom"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="formulaire_projet.html" title="3. Le formulaire Projet"
+             >previous</a> |</li>
+        <li><a href="../index.html">Système d&#39;information archéologique v0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2011, Camptocamp.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.7.
+    </div>
+  </body>
+</html>
