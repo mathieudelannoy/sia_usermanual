@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>9. Le formulaire Contenant &mdash; Manuel utilisateur du SIA</title>
+    <link rel="stylesheet" href="../_static/bootstrap/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/linfiniti.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.12',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="Manuel utilisateur du SIA" href="../index.html" />
+    <link rel="next" title="10. Le formulaire traitement" href="formulaire_traitement.html" />
+    <link rel="prev" title="8. Le formulaire phase et la chronologie" href="formulaire_datation.html" /> 
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="span3">
+      <div class="well sidebar-nav">
+          <a class="brand" href="http://sia.archeologie.pasdecalais.fr/g">
+          <br />
+          <center>Système d'Informations Archéologiques</center></a>
+<h3><a href="../index.html">Table des matières</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">1. Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="connexion.html">2. Se connecter au SIA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="interface.html">3. Les concepts généraux et l&#8217;interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_projet.html">4. Le formulaire Projet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_ue.html">5. Le formulaire UE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_mobilier.html">6. Le formulaire Mobilier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_documentation.html">7. Le formulaire Document</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_datation.html">8. Le formulaire phase et la chronologie</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">9. Le formulaire Contenant</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#description">9.1. Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#renseigner">9.2. Renseigner</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#supprimer">9.3. Supprimer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#exporter">9.4. Exporter</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_traitement.html">10. Le formulaire traitement</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_regie.html">11. Le formulaire régie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_recherche.html">12. Effectuer une recherche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="questions_frequentes.html">13. Questions fréquentes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="participants.html">14. Équipe projet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lexique.html">15. Lexique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="liens.html">16. Liens</a></li>
+</ul>
+
+      </div>
+        </div><!-- span9 -->
+        <div class="span9">
+              
+  <div class="section" id="le-formulaire-contenant">
+<h1>9. Le formulaire Contenant<a class="headerlink" href="#le-formulaire-contenant" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="description">
+<h2>9.1. Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Les contenants enregistrent la disposition et la répartition physique des mobiliers et de la documentation d&#8217;un projet. Ce formulaire permet de renseigner le type de contenant et d&#8217;indiquer sa localisation.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/diag_contenant.png"><img alt="../_images/diag_contenant.png" src="../_images/diag_contenant.png" style="width: 387.0px; height: 32.5px;" /></a>
+</div>
+</div>
+<div class="section" id="renseigner">
+<h2>9.2. Renseigner<a class="headerlink" href="#renseigner" title="Lien permanent vers ce titre">¶</a></h2>
+<p>La création initiale d&#8217;un contenant se fait obligatoirement en passant par un enregistrement mobilier existant, la relation entre les deux étant établie de manière automatique. Cette obligation a pour but d&#8217;éviter la création de contenants superflus et ne correspondant pas à une réalité physique (i.e. créer des enregistrements pour une quinzaine de caisses alors que seules 13 seront réellement utilisées).</p>
+<p>L&#8217;essentiel du travail de gestion des contenants est assuré par la personne ayant le rôle de régie pour le projet.</p>
+<p>Il est important de bien noter qu&#8217;un mobilier n&#8217;est pas nécessairement égal à un contenant. Il s&#8217;agit du cas le plus courant mais pourtant plusieurs contenants peuvent être listé si l&#8217;enregistrement mobilier est considéré comme un <strong>lot</strong> (p. ex. tous les fragments d&#8217;un dolium), auquel cas il peut arriver qu&#8217;un seul contenant ne soit pas suffisant pour tout accueillir.</p>
+<div class="section" id="les-informations-generales">
+<h3>9.2.1. Les informations générales<a class="headerlink" href="#les-informations-generales" title="Lien permanent vers ce titre">¶</a></h3>
+<ul class="simple">
+<li><strong>Numéro</strong> : <strong>saisie obligatoire</strong></li>
+<li><strong>Matière contenant</strong> : <strong>saisie obligatoire</strong>, cette liste indique la matière générale contenue (pour des raisons de conservation, il n&#8217;y a pas de mélange de matières différentes dans un même contenant)</li>
+<li><strong>Type de contenant</strong> : <strong>saisie obligatoire</strong></li>
+<li><strong>Longueur prédéfinie</strong> : lors du choix d&#8217;un contenant normé (ex. des bac N.E.), une liste de mesures existantes s&#8217;affiche afin de garantir une saisie correcte</li>
+<li><strong>Largeur prédéfinie</strong></li>
+<li><strong>Hauteur prédéfinie</strong> :</li>
+<li><strong>Longueur</strong> : si le contenant ne dispose pas d&#8217;une liste de mesures normées, il est possible de les saisir manuellement</li>
+<li><strong>Largeur</strong></li>
+<li><strong>Hauteur</strong></li>
+<li><strong>Volume</strong> : le volume est calculé automatiquement en cm³ à partir des mesures précédemment saisies</li>
+<li><strong>Bâtiment</strong> : indique le bâtiment dans lequel est entreposé le contenant, cette liste est limitée aux bâtiments du CDA</li>
+<li><strong>Salle</strong></li>
+<li><strong>Étagère</strong></li>
+<li><strong>Tablette</strong></li>
+</ul>
+</div>
+<div class="section" id="les-documents-lies">
+<h3>9.2.2. Les documents liés<a class="headerlink" href="#les-documents-lies" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Ce bloc liste tous les documents liés au contenant courant, chaque ligne représente un document et indique sa série, son dossier ainsi que son numéro identifiant (p. ex. <em>Administratif - Correspondance - 25</em>). L&#8217;utilisation du bouton <em class="guilabel">créer</em> permet de créer un nouveau document qui sera automatiquement lié au contenant.</p>
+</div>
+<div class="section" id="les-mobiliers-lies">
+<h3>9.2.3. Les mobiliers liés<a class="headerlink" href="#les-mobiliers-lies" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Ce bloc liste tous les mobiliers stockés dans le contenant.</p>
+</div>
+</div>
+<div class="section" id="supprimer">
+<h2>9.3. Supprimer<a class="headerlink" href="#supprimer" title="Lien permanent vers ce titre">¶</a></h2>
+<p>En cas de saisie erronée ou superflue, il est possible de supprimer une fiche de contenant en cliquant sur le bouton <em class="guilabel">supprimer</em> qui se situe à gauche du bouton <em class="guilabel">Annuler</em>.</p>
+</div>
+<div class="section" id="exporter">
+<h2>9.4. Exporter<a class="headerlink" href="#exporter" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Il est possible d&#8217;exporter au format CSV une sélection de contenant obtenue en utilisant le moteur de recherche.</p>
+<p>L&#8217;export disponible sous le nom <em>Inventaire des contenants</em> se compose des colonnes suivantes :</p>
+<ul class="simple">
+<li>Numéro</li>
+<li>Matière</li>
+<li>Type</li>
+<li>Numéro de mobiliers</li>
+<li>UEs</li>
+<li>Dimensions</li>
+</ul>
+</div>
+</div>
+
+
+        </div><!-- span9 -->
+      </div><!-- row -->
+    </div> <!-- container -->
+    <div class="alert alert-info">
+          &copy; Copyright CG62 / CDA - 2012.
+        Mis à jour le Oct 11, 2012.
+    </div>
+  </body>
+</html>

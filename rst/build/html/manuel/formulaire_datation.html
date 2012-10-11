@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>8. Le formulaire phase et la chronologie &mdash; Manuel utilisateur du SIA</title>
+    <link rel="stylesheet" href="../_static/bootstrap/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/linfiniti.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.12',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="Manuel utilisateur du SIA" href="../index.html" />
+    <link rel="next" title="9. Le formulaire Contenant" href="formulaire_contenant.html" />
+    <link rel="prev" title="7. Le formulaire Document" href="formulaire_documentation.html" /> 
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="span3">
+      <div class="well sidebar-nav">
+          <a class="brand" href="http://sia.archeologie.pasdecalais.fr/g">
+          <br />
+          <center>Système d'Informations Archéologiques</center></a>
+<h3><a href="../index.html">Table des matières</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">1. Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="connexion.html">2. Se connecter au SIA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="interface.html">3. Les concepts généraux et l&#8217;interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_projet.html">4. Le formulaire Projet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_ue.html">5. Le formulaire UE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_mobilier.html">6. Le formulaire Mobilier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_documentation.html">7. Le formulaire Document</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">8. Le formulaire phase et la chronologie</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#description">8.1. Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#renseigner">8.2. Renseigner</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_contenant.html">9. Le formulaire Contenant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_traitement.html">10. Le formulaire traitement</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_regie.html">11. Le formulaire régie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulaire_recherche.html">12. Effectuer une recherche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="questions_frequentes.html">13. Questions fréquentes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="participants.html">14. Équipe projet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lexique.html">15. Lexique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="liens.html">16. Liens</a></li>
+</ul>
+
+      </div>
+        </div><!-- span9 -->
+        <div class="span9">
+              
+  <div class="section" id="le-formulaire-phase-et-la-chronologie">
+<h1>8. Le formulaire phase et la chronologie<a class="headerlink" href="#le-formulaire-phase-et-la-chronologie" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="description">
+<h2>8.1. Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Une phase est une unité de datation permettant de découper un site selon les différents stades qu&#8217;il aura connu, elle peut être délimitée par des périodes chronologiques ou des datations absolues. On peut lui associer des Unités d&#8217;Enregistrement (le mobilier est associé à une phase via l&#8217;UE à laquelle il est directement en relation).</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/diag_phase.png"><img alt="../_images/diag_phase.png" src="../_images/diag_phase.png" style="width: 309.6px; height: 26.0px;" /></a>
+</div>
+</div>
+<div class="section" id="renseigner">
+<h2>8.2. Renseigner<a class="headerlink" href="#renseigner" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Les responsables du projet procédent à la création d&#8217;une nouvelle phase en passant par la page du projet et le bouton <em class="guilabel">Créer</em> du bloc <tt class="docutils literal"><span class="pre">Phases</span></tt>. La limitation de création a pour but d&#8217;éviter que chaque contributeur du projet crée des phases qui ne seront propres qu&#8217;à son étude, le travail de concertation sur la détermination de phases permet de mettre en commun les phases disponibles.</p>
+<p>La phase est automatiquement liée au projet dans laquelle elle a été créée (il n&#8217;est pas possible de lier une phase à plusieurs projets).</p>
+<div class="section" id="les-informations-generales">
+<h3>8.2.1. Les informations générales<a class="headerlink" href="#les-informations-generales" title="Lien permanent vers ce titre">¶</a></h3>
+<ul class="simple">
+<li><strong>Nom</strong> : intitulé de la phase (p. ex. construction, destruction, abandon, etc.)</li>
+<li><strong>Chronologie début</strong> : liste présentant les grandes périodes chronologiques (Moyen Âge, Néolithique, etc.) auxquelles peut se rattacher le début de la phase</li>
+<li><strong>Sous-chronologie début</strong> : liste présentant les sous-découpages des périodes chronologiques</li>
+<li><strong>Chronologie fin</strong> : liste présentant les grandes périodes chronologiques (Moyen Âge, Néolithique, etc.) auxquelles peut se rattacher la fin de la phase</li>
+<li><strong>Sous-chronologie fin</strong> : liste présentant les sous-découpages des périodes chronologiques</li>
+<li><strong>TPQ</strong> : Terminus Post Quem, il s&#8217;agit de la date plancher (la plus ancienne). Pour mentionner une date avant notre ère il faut rajouter un <strong>-</strong> devant et non pas <em>avant J.-C</em>. Les dates exprimées n&#8217;ont pas à être des valeurs absolues mais peuvent simplement se comprendre comme les bornes d&#8217;une période.</li>
+<li><strong>TAQ</strong> : Terminus Ante Quem, il s&#8217;agit de la date plafond (la plus récente). Pour mentionner une date avant notre ère il faut rajouter un - devant. Les dates exprimées n&#8217;ont pas à être des valeurs absolues mais peuvent simplement se comprendre comme les bornes d&#8217;une période.</li>
+</ul>
+</div>
+<div class="section" id="periodes-chronologiques-disponibles">
+<h3>8.2.2. Périodes chronologiques disponibles<a class="headerlink" href="#periodes-chronologiques-disponibles" title="Lien permanent vers ce titre">¶</a></h3>
+<table border="1" class="docutils">
+<caption>Bornes des périodes chronologiques</caption>
+<colgroup>
+<col width="50%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Période</th>
+<th class="head">TPQ</th>
+<th class="head">TAQ</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Paléolithique</td>
+<td>-5000000</td>
+<td>-12000</td>
+</tr>
+<tr class="row-odd"><td>Paléolithique Ancien</td>
+<td>-5000000</td>
+<td>-300000</td>
+</tr>
+<tr class="row-even"><td>Paléolithique Moyen</td>
+<td>-300000</td>
+<td>-38000</td>
+</tr>
+<tr class="row-odd"><td>Paléolithique Supérieur</td>
+<td>-38000</td>
+<td>-12000</td>
+</tr>
+<tr class="row-even"><td>Mésolithique</td>
+<td>-12000</td>
+<td>-6500</td>
+</tr>
+<tr class="row-odd"><td>Mésolithique Ancien</td>
+<td>-12000</td>
+<td>-9000</td>
+</tr>
+<tr class="row-even"><td>Mésolithique Moyen</td>
+<td>-9000</td>
+<td>-7500</td>
+</tr>
+<tr class="row-odd"><td>Mésolithique Récent</td>
+<td>-7500</td>
+<td>-6500</td>
+</tr>
+<tr class="row-even"><td>Néolithique</td>
+<td>-6500</td>
+<td>-2500</td>
+</tr>
+<tr class="row-odd"><td>Néolithique Ancien</td>
+<td>-6500</td>
+<td>-5300</td>
+</tr>
+<tr class="row-even"><td>Néolithique Moyen</td>
+<td>-5300</td>
+<td>-3600</td>
+</tr>
+<tr class="row-odd"><td>Néolithique Final</td>
+<td>-3600</td>
+<td>-2500</td>
+</tr>
+<tr class="row-even"><td>Âge du Bronze</td>
+<td>-2500</td>
+<td>-800</td>
+</tr>
+<tr class="row-odd"><td>Âge du Bronze Ancien</td>
+<td>-2500</td>
+<td>-1600</td>
+</tr>
+<tr class="row-even"><td>Âge du Bronze Moyen</td>
+<td>-1600</td>
+<td>-1400</td>
+</tr>
+<tr class="row-odd"><td>Âge du Bronze Final</td>
+<td>-1400</td>
+<td>-800</td>
+</tr>
+<tr class="row-even"><td>Âge du Fer</td>
+<td>-800</td>
+<td>-54</td>
+</tr>
+<tr class="row-odd"><td>1er Âge du Fer</td>
+<td>-800</td>
+<td>-450</td>
+</tr>
+<tr class="row-even"><td>2ème Âge du Fer</td>
+<td>-450</td>
+<td>-54</td>
+</tr>
+<tr class="row-odd"><td>Gallo-Romain</td>
+<td>-54</td>
+<td>476</td>
+</tr>
+<tr class="row-even"><td>République</td>
+<td>-54</td>
+<td>-27</td>
+</tr>
+<tr class="row-odd"><td>Empire</td>
+<td>-27</td>
+<td>476</td>
+</tr>
+<tr class="row-even"><td>Haut-Empire</td>
+<td>-27</td>
+<td>235</td>
+</tr>
+<tr class="row-odd"><td>Bas-Empire</td>
+<td>235</td>
+<td>476</td>
+</tr>
+<tr class="row-even"><td>Moyen-Âge</td>
+<td>476</td>
+<td>1492</td>
+</tr>
+<tr class="row-odd"><td>Haut Moyen-Âge</td>
+<td>476</td>
+<td>987</td>
+</tr>
+<tr class="row-even"><td>Moyen-Âge classique</td>
+<td>987</td>
+<td>1200</td>
+</tr>
+<tr class="row-odd"><td>Bas Moyen-Âge</td>
+<td>1200</td>
+<td>1492</td>
+</tr>
+<tr class="row-even"><td>Période récente</td>
+<td>1492</td>
+<td>2013</td>
+</tr>
+<tr class="row-odd"><td>Epoque moderne</td>
+<td>1492</td>
+<td>1789</td>
+</tr>
+<tr class="row-even"><td>Epoque contemporaine</td>
+<td>1789</td>
+<td>2013</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="saisie-de-la-datation">
+<h3>8.2.3. Saisie de la datation<a class="headerlink" href="#saisie-de-la-datation" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Seul le champ <strong>Nom</strong> est obligatoire pour enregistrer une phase.</p>
+<p>La sélection d&#8217;une période chronologique provoque le remplissage automatique du champ TPQ ou TAQ avec des valeurs par défaut. Si les champs TPQ/TAQ étaient déjà remplis, la modification ultérieure de périodes viendra écraser les valeurs pré-existantes.</p>
+</div>
+<div class="section" id="associer-une-ue-a-une-phase">
+<h3>8.2.4. Associer une UE à une phase<a class="headerlink" href="#associer-une-ue-a-une-phase" title="Lien permanent vers ce titre">¶</a></h3>
+<ol class="arabic simple">
+<li>Placez-vous dans une fiche d&#8217;UE</li>
+<li>Cliquez sur le bouton <em class="guilabel">Sélection vide</em> situé en haut à droite du formulaire</li>
+<li>Cliquez ensuite sur <em>Ajouter l&#8217;objet courant à la sélection</em>, le bouton de sélection affiche maintenant <em>&#8220;1 UE&#8221;</em></li>
+<li>Recommencez éventuellement cette manipulation sur plusieurs autres UE, elles viendront s&#8217;ajouter à la sélection</li>
+<li>Déplacez-vous maintenant dans la phase visée</li>
+<li>Cliquer sur le bouton de sélection puis cliquez sur le bouton <em class="guilabel">Associer à l&#8217;objet courant</em></li>
+</ol>
+</div>
+<div class="section" id="associer-une-phase-a-des-ue">
+<h3>8.2.5. Associer une phase à des UE<a class="headerlink" href="#associer-une-phase-a-des-ue" title="Lien permanent vers ce titre">¶</a></h3>
+<ol class="arabic simple">
+<li>Placez-vous dans une fiche de phase</li>
+<li>Cliquez sur le bouton <em class="guilabel">Sélection vide</em> situé en haut à droite du formulaire</li>
+<li>Cliquez ensuite sur <em>Ajouter l&#8217;objet courant à la sélection</em>, le bouton de sélection affiche maintenant <em>&#8220;1 Phase&#8221;</em></li>
+<li>Déplacez-vous maintenant dans l&#8217;UE visée</li>
+<li>Cliquer sur le bouton de sélection puis cliquez sur le bouton <em class="guilabel">Associer à l&#8217;objet courant</em></li>
+</ol>
+</div>
+<div class="section" id="dissocier-une-ue-d-une-phase">
+<h3>8.2.6. Dissocier une UE d&#8217;une phase<a class="headerlink" href="#dissocier-une-ue-d-une-phase" title="Lien permanent vers ce titre">¶</a></h3>
+<ol class="arabic simple">
+<li>Placez-vous dans la fiche d&#8217;UE</li>
+<li>Cliquer sur le bouton de sélection, il affiche <em>1 Phase déjà associé(es)</em></li>
+<li>Cliquez sur le bouton <em class="guilabel">Dissocier  la sélection et l&#8217;objet courant</em>.</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+        </div><!-- span9 -->
+      </div><!-- row -->
+    </div> <!-- container -->
+    <div class="alert alert-info">
+          &copy; Copyright CG62 / CDA - 2012.
+        Mis à jour le Oct 11, 2012.
+    </div>
+  </body>
+</html>
