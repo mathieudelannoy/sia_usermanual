@@ -1,4 +1,4 @@
-Le formulaire phase et la chronologie
+Le formulaire Phase et la Chronologie
 ======================================
 
 Description

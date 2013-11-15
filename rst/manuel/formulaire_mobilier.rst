@@ -29,6 +29,7 @@ Les informations générales
 - **État sanitaire** : Indique l'état sanitaire au moment du transfert.
 - **État de représentativité** : Indique de manière sommaire l'état de morcellement de l'objet.
 - **Composite** : Si le mobilier est composite, saisir les codes à 3 chiffres (cf. protocole SRA) séparé par un « ; ».
+- **Date de découverte** : Indique à quelle date le mobilier a été découvert.
 - **Chronologie début** : liste présentant les grandes périodes chronologiques (Moyen Âge, Néolithique, etc.) auxquelles peut se rattacher le mobilier
 - **Sous-chronologie début** : liste présentant les sous-découpages des périodes chronologiques
 - **Chronologie fin** : liste présentant les grandes périodes chronologiques (Moyen Âge, Néolithique, etc.) auxquelles peut se rattacher le mobilier
@@ -54,8 +55,13 @@ Afin de répondre aux besoins des études de mobiliers, des champs supplémentai
 	- Traces de découpe
 	- Âge
 	- Espèce
-	- Os
+	- Region anatomique
+	- Os principal
+	- Os partie concernee
 	- Latéralisation
+	- Epiphysation
+	- Sexe
+	- Trace
 - céramique
 	- Catégorie
 	- Type
@@ -93,9 +99,9 @@ Les relations inter-mobiliers
 
 A l'instar des UE, il est possible de lier des enregistrements mobiliers entre eux en passant par le panier de sélection, 3 types de relations peuvent être mises en place :
 
-- appartient : indique que l'enregistrement mobilier A défini en tant qu'objet appartient à l'enregistrement mobilier B qui lui est défini en tant que lot. Dans le cas d'une étude anthropologique, un enregistrement mobilier peut être renseigné pour chacun des os d'un squelette, chaque os sera défini en tant qu'**objet** dans le champ *objet/lot* tandis que l'enregistrement du squelette sera lui défini en tant que **lot**. Tous les os/objet pourront de cette manière être rattachés au squelette/lot.
-- comporte : indique que l'enregistrement mobilier A défini en tant que lot comporte l'enregistrement mobilier B qui lui est défini en tant qu'objet. Il n'y a pas de limite au nombre d'objets que peut comporter un lot.
-- remonte : indique avec quels autres enregistrements mobiliers se fait le remontage.
+- **appartient** : indique que l'enregistrement mobilier A défini en tant qu'objet appartient à l'enregistrement mobilier B qui lui est défini en tant que lot. Dans le cas d'une étude anthropologique, un enregistrement mobilier peut être renseigné pour chacun des os d'un squelette, chaque os sera défini en tant qu'**objet** dans le champ *objet/lot* tandis que l'enregistrement du squelette sera lui défini en tant que **lot**. Tous les os/objet pourront de cette manière être rattachés au squelette/lot.
+- **comporte** : indique que l'enregistrement mobilier A défini en tant que lot comporte l'enregistrement mobilier B qui lui est défini en tant qu'objet. Il n'y a pas de limite au nombre d'objets que peut comporter un lot.
+- **remonte** : indique avec quels autres enregistrements mobiliers se fait le remontage.
 
 .. note::
     **Exemple d'utilisation des relations entre plusieurs mobiliers**
@@ -109,7 +115,7 @@ Les mesures
 
 Il est possible de renseigner plusieurs mesures pour un mobilier via le bloc **Mesures** et le bouton :guilabel:`créer`. Il faut ensuite commencer par choisir le type de mesure voulue puis saisir la valeur numérique. 
 
-Il n'est pas nécessaire d'indiquer l'unité de mesure car de manière générale les mesures de taille sont considérées comme étant en centimètre, celles de volume en litre et celles de poids en gramme.
+Il n'est pas nécessaire d'indiquer l'unité de mesure car de manière générale les mesures de taille sont considérées comme étant en centimètre, celles de volume en litre et celles de poids en gramme. Le séparateur décimal est le point, p. ex. *27.8* (et non pas la virgule).
 
 Chaque mesure est associée automatiquement au mobilier à partir de laquelle elle a été créée. Il est préférable de supprimer une mesure inutile plutôt que la dissocier.
 
@@ -139,14 +145,14 @@ Exporter
 
 Il est possible d'exporter au format CSV une sélection de mobilier obtenue en utilisant le moteur de recherche.
 
-L'export disponible sous le nom *Inventaire général du mobilier* se compose des colonnes suivantes :
+L'export disponible sous le nom *Inventaire du mobilier* se compose des colonnes suivantes :
 
 - Code opération
 - Matière
 - Type
 - Composite
 - UE
-- Identifiant
+- Identifiant : Numéro de mobilier tel que défini par le protocole SRA
 - Détermination
 - Objet/lot
 - Nombre d'éléments
@@ -164,12 +170,14 @@ L'export disponible sous le nom *Inventaire général du mobilier* se compose de
 - TAQ
 - Traitement
 - Mouvement
-- Lieu de conservation 
+- Lieu de conservation
 
-L'export disponible sous le nom *Inventaire général du mobilier (pour impression)* est beaucoup plus simple que le précédent, il est principalement destiné à l'intégration dans les rapports finaux d'opération :
+L'export disponible sous le nom *Inventaire du mobilier avec géométrie* reprend les mêmes champs en rajoutant une colonne contenant la géométrie au format WKT (voir :ref:`def-wkt`).
+
+L'export disponible sous le nom *Inventaire du mobilier — impression* est beaucoup plus simple que le précédent, il est principalement destiné à l'intégration dans les rapports finaux d'opération et est conforme au protocole SRA :
 
 - UE
-- Identifiant (Numéro d'objet)
+- Identifiant : Numéro de mobilier tel que défini par le protocole SRA
 - Détermination : rassemble les champs Matière, Type et Détermination 
 - Nombre d'éléments
 - Poids (g)
@@ -177,4 +185,4 @@ L'export disponible sous le nom *Inventaire général du mobilier (pour impressi
 - État sanitaire
 - Parcelle de découverte : obtenue par la localisation de l'UE auquel est affecté l'objet
 - Chronologie
-- Traitements
+- Traitements (= Type de préservation à envisager)

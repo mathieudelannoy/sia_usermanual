@@ -1,8 +1,9 @@
 ﻿Questions fréquentes
 ====================
 
-Les formulaires
+La saisie
 ----------------
+
 
 Mon enregistrement a été modifié !
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -18,13 +19,7 @@ Mon enregistrement a disparu !
 
 Plusieurs raisons peuvent expliquer la disparition d'une fiche :
 
-- **la suppression** : un utilisateur disposant des droits adéquats a cliqué sur :guilabel:`supprimer`. La fiche n'est pas récupérable par un utilisateur. Si la perte est réellement importante (i.e. si elle n'est pas corrigeable manuellement en quelques minutes), les administrateurs disposent d'une copie journalière de la base données et peuvent restaurer les données perdues.
-
-.. warning::
-    **Restaurer une fiche**
-    
-    N'attendez pas trop longtemps avant de formuler une demande de restauration, les copies ne sont pas sauvegardées ad vitam !
-    Signalez quand votre projet est terminé afin de le clore et d'éviter ainsi des erreurs de manipulation (voir :ref:`projet-taches`).
+- **la suppression** : un utilisateur disposant des droits adéquats a cliqué sur :guilabel:`supprimer`. La fiche n'est pas récupérable par un utilisateur. Si la perte est réellement importante (i.e. si elle n'est pas corrigeable manuellement en quelques minutes), les administrateurs disposent d'une copie journalière de la base données et peuvent restaurer les données perdues. Une demande écrite (par courriel) doit être effectuée auprès de l'administrateur avec copie au responsable du projet. N'attendez pas trop longtemps avant de formuler une demande de restauration, les copies ne sont pas sauvegardées ad vitam !
 
 - **la dissociation** : certains enregistrements dépendent de leurs associations à une fiche parente pour être lié au projet, si cette association est sciemment rompue la fiche n'est alors plus accessible par les raccourcis habituels. Par exemple vous pouvez dissocier une mesure de son mobilier, de fait cette mesure devient orpheline. Pour restaurer la fiche, il faut faire une recherche sur **--AUCUN--** projet et sélectionner son type (mesure, document, etc.). La liste des résultats affichera alors toutes les fiches orphelines, vous pourrez alors en placer dans votre panier de sélection et restaurer l'association manuellement.
 
@@ -46,16 +41,26 @@ Les termes et les champs présents dans les différents formulaires ont deux pri
 
 - les pratiques internes au CDA, les valeurs et les champs ont été recensés depuis les enregistrements terrain et post-fouille puis harmonisées afin d’éviter les redondances.
 
-L’établissement d’un vocabulaire archéologique faisant consensus est une tâche ardue et que nul organisme n’a été en mesure de compiler, les termes utilisés par le CDA et utilisés par le SIA correspondent à la pratique opérationnelle et sont le produit de plusieurs dizaines d’opérations. De ce fait, ils recouvrent une bonne partie du vocabulaire spécifique aux opérations préventives.
+L’établissement d’un vocabulaire archéologique faisant consensus est une tâche ardue que nul organisme n’a été en mesure de compiler; les termes utilisés par le CDA et utilisés par le SIA correspondent à la pratique opérationnelle et sont le produit de plusieurs dizaines d’opérations. De ce fait, ils recouvrent une bonne partie du vocabulaire spécifique aux opérations préventives.
 
 Les listes du SIA sont figées, c'est-à-dire que chaque utilisateur emploie les mêmes termes que les autres sans possibilités de personnalisation. Cela permet d’assurer un enregistrement homogène dans tous les projets et d’éviter les écueils de thésaurus trop spécifiques et peu compréhensibles par le reste des usagers.
 
-Des valeurs peuvent être ajoutées ou modifiées dans certaines listes après discussion entre les différents intervenants et validation. Toute modification est répercutée sur l’ensemble des projets, aussi bien ceux en cours que ceux archivés.
+Des valeurs peuvent être ajoutées ou modifiées dans certaines listes après discussion entre les différents intervenants et validation par les chefs de service et le directeur du Centre. Toute modification est répercutée sur l’ensemble des projets, aussi bien ceux en cours que ceux archivés.
 
 La suppression de la fiche n'a pas supprimé ses relations !
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 La portée de la suppression est limitée à la fiche courante, par exemple la suppression d'un enregistrement de mobilier ne causera pas la perte de documents qui pourraient être utilisés par d'autres enregistrements. La suppression d'un enregistrement peut ainsi créer des orphelins (cas des mesures)
+
+La recherche
+----------------
+
+J'ai pas envie de retaper toute une recherche que je fais souvent !
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+C'est compréhensible ! Composez et exécutez votre recherche une fois, puis ajoutez un marque-page sur la page de résultat. A chaque fois que vous reviendrez sur cette page via ce marque-page ou que vous l'actualiserez, la recherche sera rejouée complétement par l'application.
+
+Faites-le pour toutes vos recherches fréquentes et vous aurez alors un stock de questions déjà composées et la garantie d'avoir toujours les résultats à jour.
 
 Les exports
 ------------

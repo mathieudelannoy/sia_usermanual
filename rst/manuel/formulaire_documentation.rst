@@ -35,7 +35,7 @@ Champs généraux:
 - **Nombre d'éléments** : Nombre d’éléments composant le lot (« 1 » pour objet).
 - **Date de réalisation**
 - **Auteur** : Nom et prénom de la personne ayant réalisé le document.
-- **URL** : chemin absolu pointant vers le fichier (S:\mon_dossier\mon_fichier.jpg)
+- **URL** : chemin absolu pointant vers le fichier (``S:\mon_dossier\mon_fichier.jpg``)
 
 Champs spécifiques à un arrêté :
 
@@ -80,7 +80,7 @@ Exporter
 
 Il est possible d'exporter au format CSV une sélection de documents obtenue en utilisant le moteur de recherche.
 
-L'export disponible sous le nom *Inventaire général de la documentation* se compose des colonnes suivantes :
+L'export disponible sous le nom *Inventaire de la documentation* se compose des colonnes suivantes :
 
 - Code opération
 - Série
@@ -100,7 +100,7 @@ L'export disponible sous le nom *Inventaire général de la documentation* se co
 - Type de Contenant
 - Numéro contenant 
 
-L'export disponible sous le nom *Inventaire général de la documentation (pour impression)* est beaucoup plus simple que le précédent, il est principalement destiné à l'intégration dans les rapports finaux d'opération :
+L'export disponible sous le nom *Inventaire de la documentation (pour impression)* est beaucoup plus simple que le précédent, il est principalement destiné à l'intégration dans les rapports finaux d'opération et est conforme au protocole SRA :
 
 - Identifiant
 - Légende : cette colonne regroupe les informations des champs Série, Dossier, Détermination et Description

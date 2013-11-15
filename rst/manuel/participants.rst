@@ -26,3 +26,7 @@ Projet porté par le Centre départemental d’Archéologie, Conseil général d
 - Éric Lemoine, leader technique
 - Pierre Maudit, géomaticien développeur
 - François Van Der Biest, géomaticien, analyste développeur
+
+
+Merci à nos testeurs émérites qui par leur utilisation intensive et leurs rapports de bugs circonstanciés ont permis de stabilier cette application : Jérémie Chombard, Marie-Liesse De Noblet, Cyril Lachaud et Laurent Wilket.
+

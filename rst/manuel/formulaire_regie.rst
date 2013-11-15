@@ -1,4 +1,4 @@
-Le formulaire régie
+Le formulaire Régie
 ========================
 
 Description
@@ -20,10 +20,10 @@ Une régie peut être associée à plusieurs traitements, par contre un traiteme
 Description des champs
 ^^^^^^^^^^^^^^^^^^^^^^
 
-- Date de sortie : date à laquelle le mobilier a quitté les locaux
-- Date de retour prévisionnel : date du retour qui aura été convenue
-- Date de retour effectif
-- Commentaire
-- Mouvement niveau 1 : **saisie obligatoire**.
-- Mouvement niveau 2 : cette liste est conditionnée par la valeur saisie dans la liste *Mouvement niveau 1*.
-- Individus : personnes responsables du traitement.
+- **Date de sortie** : date à laquelle le mobilier a quitté les locaux
+- **Date de retour prévisionnel** : date du retour qui aura été convenue
+- **Date de retour effectif**
+- **Commentaire**
+- **Mouvement niveau 1** : **saisie obligatoire**.
+- **Mouvement niveau 2** : cette liste est conditionnée par la valeur saisie dans la liste *Mouvement niveau 1*.
+- **Individus** : personnes responsables du traitement.

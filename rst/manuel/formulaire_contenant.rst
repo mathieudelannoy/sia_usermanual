@@ -67,3 +67,15 @@ L'export disponible sous le nom *Inventaire des contenants* se compose des colon
 - Numéro de mobiliers
 - UEs
 - Dimensions
+
+Utiliser l'export sous InDesign
+----------------------------------
+
+#. Ouvrez le fichier export.csv sous Excel en double-cliquant dessus
+#. Enregistrer au format *Texte (séparateur tabulation) .txt*
+#. Ouvrez le fichier modèle *2013_etiquetage_contenant.ind* sous InDesign
+#. Remplacez les termes *Commune*, *Lieux dit*, etc. par les termes adéquats
+#. Ouvrez le panneau *Fusion des données* (menu *Fenêtre > Automatisation*)
+#. Sélectionnez la source de données *export.txt* depuis le menu du panneau 
+#. Cochez la case d'aperçu et si c'est ok, créer un document fusionné depuis le menu (cliquez OK sans toucher aux options)
+#. Vérifiez les erreurs de texte en excès !

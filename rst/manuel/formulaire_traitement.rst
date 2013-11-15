@@ -1,4 +1,4 @@
-Le formulaire traitement
+Le formulaire Traitement
 ========================
 
 Description
@@ -18,12 +18,12 @@ La création d'un traitement ne peut se faire qu'en passant par le bloc *Traitem
 Description des champs
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-- Date de validité : **saisie obligatoire**.
-- Objectif
-- Résultat
-- Traitement niveau 1 : **saisie obligatoire**.
-- Traitement niveau 2 : cette liste est conditionnée par la valeur saisie dans la liste *Traitement niveau 1*.
-- Individus : personne ayant réalisé le traitement
+- **Date de validité** : **saisie obligatoire**.
+- **Objectif**
+- **Résultat**
+- **Traitement niveau 1** : **saisie obligatoire**.
+- **Traitement niveau 2** : cette liste est conditionnée par la valeur saisie dans la liste *Traitement niveau 1*.
+- **Individus** : personnes ayant réalisé le traitement
 
 Régie
 ^^^^^^^
