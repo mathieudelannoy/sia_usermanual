@@ -32,10 +32,7 @@ Les informations générales
 - **Largeur**
 - **Hauteur**
 - **Volume** : le volume est calculé automatiquement en cm³ à partir des mesures précédemment saisies
-- **Bâtiment** : indique le bâtiment dans lequel est entreposé le contenant, cette liste est limitée aux bâtiments du CDA
-- **Salle**
-- **Étagère**
-- **Tablette**
+- **Poids** : indique la masse totale des mobiliers contenus 
 
 Les documents liés
 ^^^^^^^^^^^^^^^^^^

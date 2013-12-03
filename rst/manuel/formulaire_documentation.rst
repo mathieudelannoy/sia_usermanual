@@ -34,7 +34,7 @@ Champs généraux:
 - **Objet/lot** : Permet de définir s’il s’agit d’un objet individualisé ou un lot.
 - **Nombre d'éléments** : Nombre d’éléments composant le lot (« 1 » pour objet).
 - **Date de réalisation**
-- **Auteur** : Nom et prénom de la personne ayant réalisé le document.
+- **Auteur** : Individu ayant réalisé le document.
 - **URL** : chemin absolu pointant vers le fichier (``S:\mon_dossier\mon_fichier.jpg``)
 
 Champs spécifiques à un arrêté :

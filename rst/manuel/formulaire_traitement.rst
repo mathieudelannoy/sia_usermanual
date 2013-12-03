@@ -18,7 +18,7 @@ La création d'un traitement ne peut se faire qu'en passant par le bloc *Traitem
 Description des champs
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-- **Date de validité** : **saisie obligatoire**.
+- **Date de réalisation** : **saisie obligatoire**.
 - **Objectif**
 - **Résultat**
 - **Traitement niveau 1** : **saisie obligatoire**.

@@ -22,12 +22,13 @@ Les informations générales
 - **Précision**
 - **Matière** : **saisie obligatoire**
 - **Matière Type** : **saisie obligatoire**, cette liste est conditionnée par la valeur saisie dans la liste *Matière*.
-- **Matière Précision** : cette liste est conditionnée par la valeur saisie dans la liste *Matière Type*.
+- **Type Précision** : cette liste est conditionnée par la valeur saisie dans la liste *Matière Type*.
 - **Détermination** : Identification de l’objet ou du lot en fonction des usages du responsable d’opération et de l’avancement des études.
 - **Objet/lot** : Identification de l’objet ou du lot en fonction des usages du responsable d’opération et de l’avancement des études.
 - **Nombre d'éléments** : Nombre d'éléments qui composent le lot ou l’objet (la précision au fragment près pour les lots volumineux n’est pas exigible).
 - **État sanitaire** : Indique l'état sanitaire au moment du transfert.
-- **État de représentativité** : Indique de manière sommaire l'état de morcellement de l'objet.
+- **État de représentativité** : Pourcentage indiquant de manière sommaire l'état de morcellement de l'objet.
+- **État de conservation** : Indique le niveau de conservation du mobilier.
 - **Composite** : Si le mobilier est composite, saisir les codes à 3 chiffres (cf. protocole SRA) séparé par un « ; ».
 - **Date de découverte** : Indique à quelle date le mobilier a été découvert.
 - **Chronologie début** : liste présentant les grandes périodes chronologiques (Moyen Âge, Néolithique, etc.) auxquelles peut se rattacher le mobilier
@@ -52,7 +53,6 @@ Afin de répondre aux besoins des études de mobiliers, des champs supplémentai
 	- Caractères discrets
 	- [...]
 - archéozoologie
-	- Traces de découpe
 	- Âge
 	- Espèce
 	- Region anatomique
@@ -71,6 +71,16 @@ Afin de répondre aux besoins des études de mobiliers, des champs supplémentai
 	- Fond
 	- Anse
 	- NMI
+	- Décor
+	- Cuisson
+	- Traitement de surface
+	- Description lèvre
+	- Description bord
+	- Description col
+	- Description épaulement
+	- Description panse
+	- Description fond
+	- Réf. biblio.
 - lapidaire
 	- Revêtement
 	- Liant
