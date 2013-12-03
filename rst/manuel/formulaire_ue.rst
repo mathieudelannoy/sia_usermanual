@@ -87,7 +87,7 @@ Une relation stratigraphique est maintenant établie entre l'UE de la sélection
 Voir les relations
 """""""""""""""""""
 
-Toutes les relations d'une UE sont regroupées dans le bloc *Relations stratigraphiques* par type de relation. Le titre du bloc indique entre crochet *[]* le nombre d'UE liées, un sous-total est disponible en face de chaque type de relation (il faut déplier le bloc pour les voir).
+Toutes les relations d'une UE sont regroupées dans le bloc *Relations stratigraphiques* par type de relation. Le titre du bloc indique entre crochet *[]* le nombre d'UE liées. Lorsque le bloc est déplié, les numéros d'UE s'affichent derrière chacun des types existants (`sous [14, 15, 16]`).
 
 Si vous cliquez sur une ligne dont l'intitulé est *sous (2)*, vous serez conduit sur une page listant toutes les UE dont la relation indique qu'elles sont *sous* l'UE courante.
 
@@ -96,7 +96,7 @@ L'application ne détecte pas les erreurs de circularité [#f3]_ et ne créé pa
 .. note::
     **Remplissage rapide !**
     
-    N'oubliez pas de jeter un oeil sur la section décrivant :ref:`def-remplissage-rapide` pour diviser par 10 le temps nécessaire !
+    N'oubliez pas de jeter un oeil sur la section :ref:`def-remplissage-rapide` pour diviser par 10 le temps nécessaire !
 
 Les matrices géologiques et leurs inclusions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

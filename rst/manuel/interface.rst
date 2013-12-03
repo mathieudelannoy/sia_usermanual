@@ -176,6 +176,8 @@ Remplir par enregistrement
 
 L'utilisateur se déplace sur un enregistrement existant, clique sur le panier puis clique sur :guilabel:`Ajouter  l’objet courant à la sélection`. L'action est à répéter sur chaque enregistrement que l'utilisateur veut faire figurer dans son panier.
 
+.. _`def-remplissage-rapide`:
+
 Remplir par remplissage rapide
 """"""""""""""""""""""""""""""""
 
@@ -217,9 +219,7 @@ Pour établir des relations supplémentaires, il faut utiliser le panier de sél
     **Les orphelins**
     
    Les enregistrements sans relations sont considérés comme orphelins (une UE dissociée de son projet, un mobilier dissocié de son UE, etc.), ces cas résultent toujours d'une action manuelle d'un utilisateur. Comme dans la vie courante, c'est un drame que tout le monde [#f2]_ aimerait éviter (voir :ref:`def-valeurs-perdues` dans la FAQ).
-   
-.. _`def-remplissage-rapide`:
-
+ 
 
 L'identifiant SRA
 -----------------
