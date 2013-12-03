@@ -23,6 +23,7 @@ Contents:
    manuel/participants
    manuel/lexique
    manuel/liens
+   manuel/changelog
    
 Indices and tables
 ==================
