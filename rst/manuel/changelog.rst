@@ -1,4 +1,4 @@
-﻿Liste des principaux changements
+﻿Liste des changements
 ==================================
 
 2013

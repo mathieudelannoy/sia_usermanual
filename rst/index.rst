@@ -21,9 +21,9 @@ Contents:
    manuel/formulaire_regie
    manuel/questions_frequentes
    manuel/participants
+   manuel/changelog
    manuel/lexique
    manuel/liens
-   manuel/changelog
    
 Indices and tables
 ==================

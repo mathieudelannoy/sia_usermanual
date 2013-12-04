@@ -72,7 +72,7 @@ Définition
 
 Les termes définissants les relations stratigraphiques pouvant être établies dans le SIA sont celles du tableau suivant.
 
-.. csv-table:: Types de relations stratigraphiques
+.. csv-table:: Types de relations
    :header: "Relation", "Relation inverse"
    :widths: 40, 40
 
@@ -89,10 +89,13 @@ Les termes définissants les relations stratigraphiques pouvant être établies 
 	:align: center
 	:scale: 50%
 
+Les UE présentes sont :
+
 - A et E sont des structures / creusements
 - B, C et D sont des niveaux / comblement
 
 Les relations qui en découlent sont les suivantes :
+
 - C *sur* B
 - B *sous* C
 - B et C *appartient à + est sur* A
