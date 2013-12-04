@@ -67,6 +67,42 @@ Les relations stratigraphiques
 
 Une information stratigraphique d'une UE consiste à renseigner son positionnement par rapport aux autres UE du projet.
 
+Définition
+"""""""""""
+
+Les termes définissants les relations stratigraphiques pouvant être établies dans le SIA sont celles du tableau suivant.
+
+.. csv-table:: Types de relations stratigraphiques
+   :header: "Relation", "Relation inverse"
+   :widths: 40, 40
+
+   "sur","sous"
+   "a coupé","coupé par"
+   "est égal à",""
+   "synchrone",""
+   "appartient à + est sur","contient + est sous"
+   "appartient à","contient"
+
+**Exemple** 
+
+.	figure:: ./fig/ue_stratigraphie_schema.png
+	:align: center
+	:scale: 50%
+
+- A et E sont des structures / creusements
+- B, C et D sont des niveaux / comblement
+
+Les relations qui en découlent sont les suivantes :
+- C *sur* B
+- B *sous* C
+- B et C *appartient à + est sur* A
+- A *contient + est sous* B et C
+- E *coupé par* A
+- D *appartient à + est sur* E
+- E *contient + est sous* D
+
+
+  
 Créer une relation
 """"""""""""""""""""
 
