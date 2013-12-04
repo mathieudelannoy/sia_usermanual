@@ -101,6 +101,21 @@ L'opérateur joker permet d'y remédier [#f1]_ en l'insérant dans le terme rech
 
 .. [#f1] C'est une solution, l'autre étant d'avoir un enregistrement avec des termes restreints et sans fioritures inutiles.
 
+l'opérateur d'exclusion
+"""""""""""""""""""""""
+
+La totalité des filtres dispose de la possibilité d'exclure une valeur d'une recherche en utilisant l'opérateur ``≠`` (non-égal), il permet d'écarter des enregistrements de la liste des résultats.
+
+Pour obtenir tous les mobiliers n'étant pas de la terre cuite, il y a deux façons de faire :
+
+- la mauvaise qui consiste à ajouter 4 filtres
+  - 1 filtre matière « verre »
+  - 1 filtre matière « métal »
+  - 1 filtre matière « organique »
+  - 1 filtre matière « autre »
+- la bonne qui consiste à n'ajouter q'un seul filtre
+  - 1 filtre matière « terre cuite »
+
 Obtenir les résultats
 ^^^^^^^^^^^^^^^^^^^^^
 
