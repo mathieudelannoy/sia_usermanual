@@ -69,19 +69,12 @@ les opérateurs numériques
 
 Certains filtres vous permettent d'utiliser des opérateurs numériques suivants :
 
-.. |neq| image:: ./fig/char_neq.png
-	 :scale: 50%
-.. |eqinf| image:: ./fig/char_eqinf.png
-	 :scale: 50%
-.. |eqsup| image:: ./fig/char_eqsup.png
-	 :scale: 50%
-
-* =, est strictement égal à.
-* |neq|, n'est strictement pas égal à.
-* |eqinf|, est inférieur ou égal à.
-* |eqsup|, est supérieur ou égal à.
-* <, est inférieur à.
-* >, est supérieur à.
+* ``=``, est strictement égal à.
+* ``!=``, n'est strictement pas égal à.
+* ``<=``, est inférieur ou égal à.
+* ``>=``, est supérieur ou égal à.
+* ``<``, est inférieur à.
+* ``>``, est supérieur à.
 
 Ils ne sont activé que pour les champs scrupuleusement numériques, il est n'est pas possible de les utiliser sur un champs texte contenant un chiffre : la recherche *NMI* > 5 est possible tandis que *Commentaire* = 5 ne l'est pas.
 
@@ -104,17 +97,17 @@ L'opérateur joker permet d'y remédier [#f1]_ en l'insérant dans le terme rech
 l'opérateur d'exclusion
 """""""""""""""""""""""
 
-La totalité des filtres dispose de la possibilité d'exclure une valeur d'une recherche en utilisant l'opérateur ``≠`` (non-égal), il permet d'écarter des enregistrements de la liste des résultats.
+La totalité des filtres dispose de la possibilité d'exclure une valeur d'une recherche en utilisant l'opérateur ``!=`` (non-égal), il permet d'écarter des enregistrements de la liste des résultats.
 
 Pour obtenir tous les mobiliers n'étant pas de la terre cuite, il y a deux façons de faire :
 
 - la **mauvaise** qui consiste à ajouter 4 filtres
-  - 1 filtre matière « verre »
-  - 1 filtre matière « métal »
-  - 1 filtre matière « organique »
-  - 1 filtre matière « autre »
+	- 1 filtre matière « verre »
+	- 1 filtre matière « métal »
+	- 1 filtre matière « organique »
+	- 1 filtre matière « autre »
 - la **bonne** qui consiste à n'ajouter q'un seul filtre
-  - 1 filtre matière « terre cuite »
+	- 1 filtre matière « terre cuite »
 
 Obtenir les résultats
 ^^^^^^^^^^^^^^^^^^^^^
@@ -130,7 +123,7 @@ Utiliser les résultats
 
 ..	figure:: ./fig/recherche_resultat.png 
 	:align: center
-	:scale: 50%
+	:scale: 70%
 	:alt: Exemple de page de résultats
 
 1. Les critères de votre recherche sont résumés en une phrase.
@@ -142,7 +135,7 @@ Utiliser les résultats
 La recherche sur tous les projets
 --------------------------------------------
 
-Lorsqu'une recherche porte sur tous les projets ``(3)``, une page intermédiaire de résultats est affichée avec une ligne par projet répondant aux critères et le nombre de résultats pour chacun de ces projets. Le fait de cliquer sur l'un des projets listés amène sur une page de résultat classique.
+Lorsqu'une recherche porte sur tous les projets, une page intermédiaire de résultats est affichée avec une ligne par projet répondant aux critères et le nombre de résultats pour chacun de ces projets. Le fait de cliquer sur l'un des projets listés amène sur une page de résultat classique.
 
 ..	figure:: ./fig/recherche_multiprojet.png 
 	:align: center
