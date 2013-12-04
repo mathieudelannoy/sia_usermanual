@@ -85,7 +85,7 @@ Les termes définissants les relations stratigraphiques pouvant être établies 
 
 **Exemple** 
 
-.	figure:: ./fig/ue_stratigraphie_schema.png
+..	figure:: ./fig/ue_stratigraphie_schema.png
 	:align: center
 	:scale: 50%
 
