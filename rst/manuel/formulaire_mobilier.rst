@@ -20,25 +20,30 @@ Les informations générales
 
 - **Numéro** : numérotation de 1 à n pour tout mobilier faisant l’objet d’une photographie, d’un dessin, d’une restauration, d’une étude particulière, d’un moulage, etc. Les lots peuvent également porter un numéro d’ordre.
 - **Précision**
+
 - **Matière** : **saisie obligatoire**
 - **Matière Type** : **saisie obligatoire**, cette liste est conditionnée par la valeur saisie dans la liste *Matière*.
 - **Type Précision** : cette liste est conditionnée par la valeur saisie dans la liste *Matière Type*.
 - **Détermination** : Identification de l’objet ou du lot en fonction des usages du responsable d’opération et de l’avancement des études.
+
 - **Objet/lot** : Identification de l’objet ou du lot en fonction des usages du responsable d’opération et de l’avancement des études.
 - **Nombre d'éléments** : Nombre d'éléments qui composent le lot ou l’objet (la précision au fragment près pour les lots volumineux n’est pas exigible).
-- **État sanitaire** : Indique l'état sanitaire au moment du transfert.
-- **État de représentativité** : Pourcentage indiquant de manière sommaire l'état de morcellement de l'objet.
-- **État de conservation** : Indique le niveau de conservation du mobilier.
-- **Composite** : Si le mobilier est composite, saisir les codes à 3 chiffres (cf. protocole SRA) séparé par un « ; ».
-- **Date de découverte** : Indique à quelle date le mobilier a été découvert.
+- **Commentaire** : si nécessaire, vous pouvez décrire plus en détail ce mobilier (quelques mots au maximum). Il est déconseillé d'y faire figurer ce qui est ou peut être décrit dans un autre champ, cela permet de faciliter les recherches et d'éviter les redondances inutiles. Le nombre de caractères est limité à 255.
+
 - **Chronologie début** : liste présentant les grandes périodes chronologiques (Moyen Âge, Néolithique, etc.) auxquelles peut se rattacher le mobilier
 - **Sous-chronologie début** : liste présentant les sous-découpages des périodes chronologiques
 - **Chronologie fin** : liste présentant les grandes périodes chronologiques (Moyen Âge, Néolithique, etc.) auxquelles peut se rattacher le mobilier
 - **TPQ** : Terminus Post Quem, il s'agit de la date plancher (la plus ancienne). Pour mentionner une date avant notre ère il faut rajouter un **-** devant et non pas *avant J.-C*. Les dates exprimées n'ont pas à être des valeurs absolues mais peuvent simplement se comprendre comme les bornes d'une période.
 - **Sous-chronologie fin** : liste présentant les sous-découpages des périodes chronologiques
 - **TAQ** : Terminus Ante Quem, il s'agit de la date plafond (la plus récente). Pour mentionner une date avant notre ère il faut rajouter un - devant. Les dates exprimées n'ont pas à être des valeurs absolues mais peuvent simplement se comprendre comme les bornes d'une période.
+
+- **État sanitaire** : Indique l'état sanitaire au moment du transfert.
+- **État de représentativité** : Pourcentage indiquant de manière sommaire l'état de morcellement de l'objet.
+- **État de conservation** : Indique le niveau de conservation du mobilier.
+- **Composite** : Si le mobilier est composite, saisir les codes à 3 chiffres (cf. protocole SRA) séparé par un « ; ».
+- **Date de découverte** : Indique à quelle date le mobilier a été découvert.
 - **Valeur assurance**
-- **Commentaire** : si nécessaire, vous pouvez décrire plus en détail ce mobilier (quelques mots au maximum). Il est déconseillé d'y faire figurer ce qui est ou peut être décrit dans un autre champ, cela permet de faciliter les recherches et d'éviter les redondances inutiles. Le nombre de caractères est limité à 255.
+
 
 
 Les champs spécialistes
@@ -155,6 +160,9 @@ Exporter
 
 Il est possible d'exporter au format CSV une sélection de mobilier obtenue en utilisant le moteur de recherche.
 
+Les exports généralistes
+^^^^^^^^^^^^^^^^^^^^^^^^
+
 L'export disponible sous le nom *Inventaire du mobilier* se compose des colonnes suivantes :
 
 - Code opération
@@ -162,24 +170,23 @@ L'export disponible sous le nom *Inventaire du mobilier* se compose des colonnes
 - Type
 - Composite
 - UE
-- Identifiant : Numéro de mobilier tel que défini par le protocole SRA
+- Identifiant SRA
 - Détermination
 - Objet/lot
-- Nombre d'éléments
+- Nombre d’éléments
 - Remontage
 - Poids (g)
 - État de conservation
 - État sanitaire
-- Type de préservation à envisager
+- Préservation à envisager
 - Numéro contenant
 - Type de contenant
-- Date de découverte
 - Parcelle de découverte
+- Date de découverte
 - Chronologie
 - TPQ
 - TAQ
 - Traitement
-- Mouvement
 - Lieu de conservation
 
 L'export disponible sous le nom *Inventaire du mobilier avec géométrie* reprend les mêmes champs en rajoutant une colonne contenant la géométrie au format WKT (voir :ref:`def-wkt`).
@@ -193,6 +200,18 @@ L'export disponible sous le nom *Inventaire du mobilier — impression* est beau
 - Poids (g)
 - État de conservation
 - État sanitaire
+- Préservation à envisager
 - Parcelle de découverte : obtenue par la localisation de l'UE auquel est affecté l'objet
 - Chronologie
-- Traitements (= Type de préservation à envisager)
+
+Les exports spécialisés
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Ces exports comprennent l'intégralité des champs spécialistes ainsi que toutes les mesures associées aux mobilier, les exports disponibles sont :
+
+- archéozoologie
+- anthropologie
+- céramique
+- lapidaire
+- lithique
+- monnétaire
