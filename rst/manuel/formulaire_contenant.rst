@@ -63,6 +63,7 @@ Lorsque qu'un contenant est créé, un bloc situé à droite indique qu'il n'y a
 Une fois que les valeurs localisantes sont sélectionnées, il faut cliquer sur le bouton :guilabel:`Enregistrer`. La page qui s'affiche alors est celle de la localisation, on peut y voir tous les contenants qui y sont situés.
 
 Pour **dissocier** le contenant d'une localisation, il faut :
+
 # placer la localisation dans le panier de sélection
 # ouvrir la page du contenant
 # cliquer sur le bouton :guilabel:`Dissocier`
