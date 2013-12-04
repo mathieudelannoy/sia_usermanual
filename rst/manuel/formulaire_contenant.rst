@@ -17,7 +17,7 @@ La création initiale d'un contenant se fait obligatoirement en passant par un e
 
 L'essentiel du travail de gestion des contenants est assuré par la personne ayant le rôle de régie pour le projet.
 
-Il est important de bien noter qu'un mobilier n'est pas nécessairement égal à un contenant. Il s'agit du cas le plus courant mais pourtant plusieurs contenants peuvent être listé si l'enregistrement mobilier est considéré comme un **lot** (p. ex. tous les fragments d'un dolium), auquel cas il peut arriver qu'un seul contenant ne soit pas suffisant pour tout accueillir.
+Il est important de bien noter qu'un mobilier n'est pas nécessairement associé à un seul contenant. Il s'agit du cas le plus courant, mais pourtant plusieurs contenants peuvent être listé si l'enregistrement mobilier est considéré comme un **lot** (p. ex. tous les fragments d'un dolium dans 4 bacs), auquel cas il peut arriver qu'un seul contenant ne soit pas suffisant pour tout accueillir.
 
 Les informations générales
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -50,6 +50,22 @@ Supprimer
 
 En cas de saisie erronée ou superflue, il est possible de supprimer une fiche de contenant en cliquant sur le bouton :guilabel:`supprimer` qui se situe à gauche du bouton :guilabel:`Annuler`. 
 
+Localiser
+----------
+
+Lorsque qu'un contenant est créé, un bloc situé à droite indique qu'il n'y a "``Pas de localisation associé à ce contenant.``. Il faut cliquer sur le lien *Créer une localisation* qui vous propose de choisir l'emplacement du contenant selon 4 niveaux de précision :
+
+- le bâtiment (CCE, ADS, etc.)
+- la salle
+- l'étagère
+- la tablette
+
+Une fois que les valeurs localisantes sont sélectionnées, il faut cliquer sur le bouton :guilabel:`Enregistrer`. La page qui s'affiche alors est celle de la localisation, on peut y voir tous les contenants qui y sont situés.
+
+Pour **dissocier** le contenant d'une localisation, il faut :
+# placer la localisation dans le panier de sélection
+# ouvrir la page du contenant
+# cliquer sur le bouton :guilabel:`Dissocier`
 
 Exporter
 --------
