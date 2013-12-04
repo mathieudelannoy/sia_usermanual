@@ -80,6 +80,7 @@ L'export disponible sous le nom *Inventaire des contenants* se compose des colon
 - Numéro de mobiliers
 - UEs
 - Dimensions
+- Lieu de conservation
 
 Utiliser l'export sous InDesign
 ----------------------------------
