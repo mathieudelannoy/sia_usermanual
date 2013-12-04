@@ -108,12 +108,12 @@ La totalité des filtres dispose de la possibilité d'exclure une valeur d'une r
 
 Pour obtenir tous les mobiliers n'étant pas de la terre cuite, il y a deux façons de faire :
 
-- la mauvaise qui consiste à ajouter 4 filtres
+- la **mauvaise** qui consiste à ajouter 4 filtres
   - 1 filtre matière « verre »
   - 1 filtre matière « métal »
   - 1 filtre matière « organique »
   - 1 filtre matière « autre »
-- la bonne qui consiste à n'ajouter q'un seul filtre
+- la **bonne** qui consiste à n'ajouter q'un seul filtre
   - 1 filtre matière « terre cuite »
 
 Obtenir les résultats
@@ -139,6 +139,15 @@ Utiliser les résultats
 4. La carte va faire figurer tous les emplacements correspondant aux résultats, par exemple si vous recherchez des mobiliers céramiques vous obtiendrez sur cette carte les UE de provenance. Vous pouvez cliquer sur les formes géométriques pour sélectionner dans la liste le résultat correspondant.
 5. La partie *Export*, situé sous la carte, liste les différents classeurs que vous pouvez obtenir, ces exports se font au format CSV. Seuls sont exportés les résultats qui ont une case cochée.
 
+La recherche sur tous les projets
+--------------------------------------------
+
+Lorsqu'une recherche porte sur tous les projets ``(3)``, une page intermédiaire de résultats est affichée avec une ligne par projet répondant aux critères et le nombre de résultats pour chacun de ces projets. Le fait de cliquer sur l'un des projets listés amène sur une page de résultat classique.
+
+..	figure:: ./fig/recherche_multiprojet.png 
+	:align: center
+	:scale: 50%
+	:alt: Exemple de page de résultats multi-projets
 
 Exemples
 ---------
