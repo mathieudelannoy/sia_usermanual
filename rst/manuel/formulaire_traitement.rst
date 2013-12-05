@@ -35,3 +35,16 @@ Mobiliers
 
 Indique à quels enregistrements mobiliers est lié un traitement, un traitement peut être lié à plusieurs mobiliers.
 
+Exporter
+--------
+
+L'export inclut les colonnes suivantes :
+
+- Projet
+- Traitement niveau 1
+- Traitement niveau 2
+- Objectif
+- Résultat
+- Date de réalisation
+- Individus
+- Numéros de mobilier

@@ -27,3 +27,19 @@ Description des champs
 - **Mouvement niveau 1** : **saisie obligatoire**.
 - **Mouvement niveau 2** : cette liste est conditionnée par la valeur saisie dans la liste *Mouvement niveau 1*.
 - **Individus** : personnes responsables du traitement.
+
+Exporter
+--------
+
+L'export inclut les colonnes suivantes :
+
+- Projet
+- Mouvement niveau 1
+- Mouvement niveau 2
+- Date de sortie
+- Date de retour prévisionnel
+- Date de retour effectif
+- Commentaire
+- Individus
+- Numéros de mobilier
+
