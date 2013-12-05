@@ -46,7 +46,7 @@ Il existe 8 rôles :
 Accéder au SIA
 --------------
 
-L'entrée dans l'application se fait via le site internet `archeologie.pasdecalais.fr <http://archeologie.pasdecalais.fr/>`_ dans votre navigateur.
+L'entrée dans l'application se fait via le site internet `sia.archeologie.pasdecalais.fr <http://sia.archeologie.pasdecalais.fr/>`_ dans votre navigateur.
 
 ..	figure:: ./fig/accueil_sia_liste_projets.png
 	:scale: 40%
