@@ -74,16 +74,16 @@ Se déplacer
 Le fil d'Ariane
 ^^^^^^^^^^^^^^^^
 
-..	figure:: ./fig/fil_ariane.png
-	:align: center
-	:scale: 70%
-
 Ce fil est toujours placé en haut de l'écran, sa fonction est d'indiquer où se situe la page lue par l'utilisateur. Son sens de lecture représente la hiérarchie des enregistrements :
 
 - *Liste des projets /* : permet de revenir à la page d'accueil de l'application et de sélectionner un projet différent
 - *Dom Boutry /* : permet de revenir à la page d'accueil du projet
 - *UE #17695 /* : permet de revenir à la page du formulaire de cette UE
 - *pierre autre (UE 1)* : ce dernier apparaît grisé, il s'agit du formulaire actuellement ouvert
+
+..	figure:: ./fig/fil_ariane.png
+	:align: center
+	:scale: 70%
 
 Il est donc ici possible de déduire l'appartenance du mobilier rien qu'en lisant ce fil et de le remonter en cliquant sur chacun des différents niveaux.
 

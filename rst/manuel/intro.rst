@@ -19,7 +19,11 @@ En 2009, les inventaires de la section 3 du rapport final d’opération, exigen
 
 En 2010, suite à la stabilisation des inventaires, une réflexion est menée avec la Direction des Systèmes d’Informations du Conseil général pour intégrer l’ensemble des données dans une base de données associée à un système d’information géographique. La solution retenue est le développement d’une application métier basée sur le logiciel libre Georchestra. 
 
-En novembre 2010, une inscription budgétaire de 200.000 € sur 4 ans est votée. En février 2011, la consultation est lancée et le marché est attribué à la société Camptocamp en juin 2011. Six mois sont nécessaires pour définir les spécifications fonctionnelles comprenant le schéma de la base de données. Le développement intervient en 2012. Les formulaires projet et unité d’enregistrement (UE) sont livrés en juin 2012. Les autres formulaires ainsi que le module de recherche sont livrés en septembre 2012. En janvier 2013 sont livrés les premiers développements complémentaires (remplissage rapide, adaptation au protocole SRA, etc.).
+En novembre 2010, une inscription budgétaire de 200.000 € sur 4 ans est votée. En février 2011, la consultation est lancée et le marché est attribué à la société Camptocamp en juin 2011. Six mois sont nécessaires pour définir les spécifications fonctionnelles comprenant le schéma de la base de données. Le développement intervient en 2012. Les formulaires projet et unité d’enregistrement (UE) sont livrés en juin 2012. Les autres formulaires ainsi que le module de recherche sont livrés en septembre 2012. 
+
+Des développements complémentaires ont été apportés en janvier 2013 puis en novembre 2013, référez-vous à la :ref:`def-changelog`.
+
+En janvier 2013 sont livrés les premiers développements complémentaires (remplissage rapide, adaptation au protocole SRA, etc.).
 
 L’application SIA
 ------------------
