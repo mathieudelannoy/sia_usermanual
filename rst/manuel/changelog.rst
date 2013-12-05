@@ -1,8 +1,10 @@
-﻿Liste des changements
+﻿.. _`def-changelog`:
+
+Liste des changements
 ==================================
 
 2013
-----
+^^^^
 
 - affichage plus pratique des relations stratigraphiques
 - affichage plus logique des résultats de recherche 
@@ -14,7 +16,7 @@
 - séparation de la localisation et du contenant
 
 2012
-----
+^^^^
 
 - ajout automatisé de l'identifiant SRA
 - ajout de listes pour les matrices et l'archéozoologie
