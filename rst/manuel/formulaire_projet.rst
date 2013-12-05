@@ -61,7 +61,7 @@ Unités d'Enregistrement
 
 Ce bloc comprend :
 
-- un décompte du nombre total d'UE du projet entre parenthèses
+- un décompte du nombre total d'UE du projet
 - un découpage par type d'UE avec un décompte du nombre d'enregistrements UE concernés
 
 Mobilier
@@ -69,7 +69,7 @@ Mobilier
 
 Ce bloc comprend :
 
-- un décompte du nombre total d'enregistrements mobiliers du projet entre parenthèses
+- un décompte du nombre total d'enregistrements mobiliers du projet
 - un découpage par matière et type avec un décompte du nombre d'enregistrements mobiliers concernés
 
 Phase
@@ -77,7 +77,7 @@ Phase
 
 Ce bloc comprend :
 
-- un décompte du nombre total de phase du projet entre parenthèses
+- un décompte du nombre total de phase du projet entre
 - un découpage par phase avec un décompte du nombre d'enregistrements qui lui sont liés
 
 Documents
@@ -85,7 +85,7 @@ Documents
 
 Ce bloc comprend :
 
-- un décompte du nombre total de documents du projet entre parenthèses
+- un décompte du nombre total de documents du projet
 - un découpage par type de document avec un décompte du nombre d'enregistrements concernés
 
 Contenants
@@ -93,8 +93,33 @@ Contenants
 
 Ce bloc comprend :
 
-- un décompte du nombre total de contenants du projet entre parenthèses
+- un décompte du nombre total de contenants du projet
 - un découpage par type de matière contenu et par type de contenant avec un décompte du nombre d'enregistrements concernés
+
+Localisation
+^^^^^^^^^^^^
+
+Ce bloc comprend :
+
+- une liste des localisations liées au projet
+- un décompte du nombre de contenants à chaque localisation
+
+Traitements
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Ce bloc comprend :
+
+- un décompte du nombre total de traitements du projet
+- un découpage par type de traitements
+
+Régie
+^^^^^^^^^^^^
+
+Ce bloc comprend :
+
+- un décompte du nombre total de régie du projet
+- un découpage par type de régie
+
 
 Renseigner
 ----------
@@ -139,7 +164,7 @@ Description des champs
 
 - **Surface ouverte** : Dans le cadre d'une opération de terrain, il s'agit de la surface en m² qui aura été effectivement ouverte.
 
-- **Surface % projet/ouvert** : Pourcentage équivalent au ratio d'ouverture par rapport à la surface du projet.  Ce champ n'est pas automatisé.
+- **Surface % projet/ouvert** : Pourcentage équivalent au ratio d'ouverture par rapport à la surface du projet.  Ce champ n'est pas automatisé. La surface inclut toutes les ouvertures, tant les tranchées que leurs fenêtres.
 
 - **Codes des entités** : Un code entité est un numéro transmis par le Service Régional d'Archéologie caractérisant les découvertes archéologiques d'un projet. Il est possible de saisir plusieurs numéros en les séparant par des points-virgules.
 
