@@ -67,7 +67,7 @@ les opérateurs de recherche
 les opérateurs numériques
 """""""""""""""""""""""""
 
-Certains filtres vous permettent d'utiliser des opérateurs numériques suivants :
+Certains filtres permettent d'utiliser les opérateurs numériques suivants :
 
 * ``=``, est strictement égal à.
 * ``!=``, n'est strictement pas égal à.
@@ -76,14 +76,14 @@ Certains filtres vous permettent d'utiliser des opérateurs numériques suivants
 * ``<``, est inférieur à.
 * ``>``, est supérieur à.
 
-Ils ne sont activé que pour les champs scrupuleusement numériques, il est n'est pas possible de les utiliser sur un champs texte contenant un chiffre : la recherche *NMI* > 5 est possible tandis que *Commentaire* = 5 ne l'est pas.
+Ils ne sont activés que pour les champs scrupuleusement numériques, il est n'est pas possible de les utiliser sur un champs texte contenant un chiffre : la recherche *NMI* > 5 est possible tandis que *Commentaire* = 5 ne l'est pas.
 
 les opérateurs de texte
 """""""""""""""""""""""
     
-Le joker (*"%"*) est caractère de remplacement, il permet de combler les trous dans une recherche portant sur un champ texte.
+Le joker (*"%"*) est un caractère de remplacement, il permet de combler les trous dans une recherche portant sur un champ texte.
 
-Un céramologue faisant une recherche sur toutes les céramiques de la catégorie "*groupe 2*" avec un filtre utilisant ce terme ne trouvera que les enregistrements correspondant strictement à ce terme. Toutes les variations telles que "*groupe 2 ??*", "*groupe 2 et 3*" ou "*voir groupe 2*" ne figureront pas dans la liste des résultats. 
+Un céramologue faisant une recherche sur toutes les céramiques de la catégorie "*groupe 2*" avec un filtre utilisant ce terme ne trouvera que les enregistrements correspondant strictement à ce terme. Toutes les variations potentielles telles que "*groupe 2 ??*", "*groupe 2 et 3*" ou "*voir groupe 2*" ne figureront pas dans la liste des résultats. 
 
 L'opérateur joker permet d'y remédier [#f1]_ en l'insérant dans le terme recherché là où les variations peuvent être susceptibles de se glisser :
 
@@ -99,15 +99,7 @@ l'opérateur d'exclusion
 
 La totalité des filtres dispose de la possibilité d'exclure une valeur d'une recherche en utilisant l'opérateur ``!=`` (non-égal), il permet d'écarter des enregistrements de la liste des résultats.
 
-Pour obtenir tous les mobiliers n'étant pas de la terre cuite, il y a deux façons de faire :
-
-- la **mauvaise** qui consiste à ajouter 4 filtres
-	- 1 filtre matière « verre »
-	- 1 filtre matière « métal »
-	- 1 filtre matière « organique »
-	- 1 filtre matière « autre »
-- la **bonne** qui consiste à n'ajouter q'un seul filtre
-	- 1 filtre matière « terre cuite »
+Pour obtenir tous les mobiliers n'étant pas de la terre cuite, il suffit d'ajouter un filtre excluant la matière *terre cuite* au lieu d'ajouter un filtre pour inclure le métal, un autre pour le verre, etc.
 
 Obtenir les résultats
 ^^^^^^^^^^^^^^^^^^^^^
@@ -127,7 +119,7 @@ Utiliser les résultats
 	:alt: Exemple de page de résultats
 
 1. Les critères de votre recherche sont résumés en une phrase.
-2. Les résultats sont placés sous forme de liste, chaque résultat est précédé d'une case à cocher. La ligne d'en-tête de la liste se compose du total des résultats et des boutons :guilabel:`tous` et :guilabel:`aucun` qui vous permettent de cocher/décocher l'ensemble des résultats en un clic.
+2. Les résultats sont placés sous forme de liste classé par ordre croissant, chaque résultat est précédé d'une case à cocher. La ligne d'en-tête de la liste se compose du total des résultats et des boutons :guilabel:`tous` et :guilabel:`aucun` qui vous permettent de cocher/décocher l'ensemble des résultats en un clic.
 3. Le bouton :guilabel:`placer dans la sélection` permet de mettre tous les résultats dont les cases sont cochées dans votre panier de sélection. Cette fonction permet par exemple de rechercher les 8 fossés ayant livré du matériel lithique et de les assigner à la phase d'occupation du Néolithique.
 4. La carte va faire figurer tous les emplacements correspondant aux résultats, par exemple si vous recherchez des mobiliers céramiques vous obtiendrez sur cette carte les UE de provenance. Vous pouvez cliquer sur les formes géométriques pour sélectionner dans la liste le résultat correspondant.
 5. La partie *Export*, situé sous la carte, liste les différents classeurs que vous pouvez obtenir, ces exports se font au format CSV. Seuls sont exportés les résultats qui ont une case cochée.
