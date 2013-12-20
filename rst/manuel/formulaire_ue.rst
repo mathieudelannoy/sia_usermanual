@@ -209,6 +209,16 @@ L'export disponible sous le nom *Inventaire des UE (avec géométrie)* se compos
 
 L'export disponible sous le nom *export stratigraphique simplifié* rassemble toutes les relations en ne gardant que les termes *sur*, *sous* et *synchrone* (en convertissant les autres termes). Cet export a été conçu pour être directement exploitable sous le logiciel Stratifiant.
 
+.. csv-table:: Exemple d'export stratigraphique
+   :header: "UE1", "relation", "UE3"
+   :widths: 10, 20, 10
+   
+   4	sous	67
+   14	sous	4
+   46	sous	47
+   46	synchrone	48
+
+
 .. [#f3] Si A est en-dessous de B et B en-dessous de C alors A ne peut être au-dessus de C.
 .. [#f4] Si A est en-dessous de B et B en-dessous de C alors C est mis en relation automatiquement sous A.
 .. [#f5] Logiciel conçu par Bruno Desachy, disponible sur `le-nid-du-stratifiant.ouvaton.org <http://le-nid-du-stratifiant.ouvaton.org/>`_.
