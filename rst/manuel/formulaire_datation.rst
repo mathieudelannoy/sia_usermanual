@@ -37,37 +37,40 @@ Périodes chronologiques disponibles
    :header: "Période", "TPQ", "TAQ"
    :widths: 20, 10, 10
 
-   "Paléolithique", -5000000, -12000
-   "Paléolithique Ancien", -5000000, -300000
-   "Paléolithique Moyen", -300000, -38000
-   "Paléolithique Supérieur", -38000, -12000
-   "Mésolithique", -12000 , -6500
-   "Mésolithique Ancien", -12000 , -9000
-   "Mésolithique Moyen", -9000 , -7500
-   "Mésolithique Récent", -7500 , -6500
-   "Néolithique", -6500, -2500
-   "Néolithique Ancien", -6500, -5300
-   "Néolithique Moyen", -5300, -3600
-   "Néolithique Final", -3600, -2500
-   "Âge du Bronze", -2500, -800
-   "Âge du Bronze Ancien",-2500 , -1600
-   "Âge du Bronze Moyen", -1600, -1400
-   "Âge du Bronze Final", -1400, -800
-   "Âge du Fer", -800, -54
-   "1er Âge du Fer", -800, -450
-   "2ème Âge du Fer", -450, -54
-   "Gallo-Romain", -54, 476
-   "République", -54, -27
-   "Empire", -27, 476
-   "Haut-Empire", -27, 235
-   "Bas-Empire", 235, 476
-   "Moyen-Âge", 476, 1492
-   "Haut Moyen-Âge", 476, 987
-   "Moyen-Âge classique", 987, 1200
-   "Bas Moyen-Âge", 1200, 1492
-   "Période récente", 1492, 2013 
-   "Epoque moderne", 1492, 1789
-   "Epoque contemporaine", 1789, 2013
+   Paléolithique,-3000000,-9600
+   * Paléolithique Ancien,-3000000,-300000
+   * Paléolithique Moyen,-300000,-38000
+   * Paléolithique Supérieur,-38000,-12700
+   * Paléolithique Final,-12700,-9600
+   Mésolithique,-9600,-5200
+   * Mésolithique Ancien,-9600,-8000
+   * Mésolithique Moyen,-8000,-6500
+   * Mésolithique Récent,-6500,-6000
+   * Mésolithique Final,-6000,-5200
+   Néolithique,-5200,-2500
+   * Néolithique Ancien,-5200,-4500
+   * Néolithique Moyen,-4500,-3600
+   * Néolithique Récent,-3600,-3000
+   * Néolithique Final,-3000,-2500
+   Âge du Bronze,-2500,-800
+   * Âge du Bronze Ancien,-2500,-1600
+   * Âge du Bronze Moyen,-1600,-1400
+   * Âge du Bronze Final,-1400,-800
+   Âge du Fer,-800,-54
+   * 1er Âge du Fer,-800,-450
+   * 2nd Âge du Fer,-450,-54
+   Gallo-Romain,-54,476
+   * République,-54,-27
+   * Empire,-27,476
+   * Haut-Empire,-27,235
+   * Bas-Empire,235,476
+   Moyen-Âge,476,1492
+   * Haut Moyen-Âge,476,987
+   * Moyen-Âge Classique,987,1200
+   * Bas Moyen-Âge,1200,1492
+   Période Récente,1492,2100
+   * Époque Moderne,1492,1789
+   * Époque contemporaine,1789,	2013
 
 Saisie de la datation
 ^^^^^^^^^^^^^^^^^^^^^^^
