@@ -72,6 +72,22 @@ Ce bloc comprend :
 - un décompte du nombre total d'enregistrements mobiliers du projet
 - un découpage par matière et type avec un décompte du nombre d'enregistrements mobiliers concernés
 
+Contenants
+^^^^^^^^^^^
+
+Ce bloc comprend :
+
+- un décompte du nombre total de contenants du projet
+- un découpage par type de matière contenu et par type de contenant avec un décompte du nombre d'enregistrements concernés
+
+Localisation
+^^^^^^^^^^^^
+
+Ce bloc comprend :
+
+- une liste des localisations liées au projet
+- un décompte du nombre de contenants à chaque localisation (ou sans localisation)
+
 Phase
 ^^^^^
 
@@ -88,37 +104,21 @@ Ce bloc comprend :
 - un décompte du nombre total de documents du projet
 - un découpage par type de document avec un décompte du nombre d'enregistrements concernés
 
-Contenants
-^^^^^^^^^^^
-
-Ce bloc comprend :
-
-- un décompte du nombre total de contenants du projet
-- un découpage par type de matière contenu et par type de contenant avec un décompte du nombre d'enregistrements concernés
-
-Localisation
-^^^^^^^^^^^^
-
-Ce bloc comprend :
-
-- une liste des localisations liées au projet
-- un décompte du nombre de contenants à chaque localisation
-
 Traitements
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Ce bloc comprend :
 
 - un décompte du nombre total de traitements du projet
-- un découpage par type de traitements
+- un découpage par type de traitements avec un décompte du nombre d'enregistrements concernés
 
-Régie
+Régies
 ^^^^^^^^^^^^
 
 Ce bloc comprend :
 
 - un décompte du nombre total de régie du projet
-- un découpage par type de régie
+- un découpage par type de régie avec un décompte du nombre d'enregistrements concernés
 
 
 Renseigner
