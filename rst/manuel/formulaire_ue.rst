@@ -83,26 +83,22 @@ Les termes définissants les relations stratigraphiques pouvant être établies 
    "appartient à + est sur","contient + est sous"
    "appartient à","contient"
 
-**Exemple** 
+L'illustration suivante représente un exemple de coupe stratiggraphique où A et E sont des structures (creusements) tandis que B, C et D sont des niveaux (comblement)
 
 ..	figure:: ./fig/ue_stratigraphie_schema.png
 	:align: center
 	:scale: 50%
 
-Les UE présentes sont :
-
-- A et E sont des structures / creusements
-- B, C et D sont des niveaux / comblement
-
 Les relations qui en découlent sont les suivantes :
 
-- C *sur* B
-- B *sous* C
-- B et C *appartient à + est sur* A
-- A *contient + est sous* B et C
-- E *coupé par* A
-- D *appartient à + est sur* E
-- E *contient + est sous* D
+.. csv-table:: Types de relations
+   :header: "Relation", "Relation inverse automatique"
+   :widths: 40, 50
+
+   C *sur* B,B *sous* C
+   B et C *appartient à + est sur* A,A *contient + est sous* B et C
+   E *coupé par* A, A *a coupé* E
+   D *appartient à + est sur* E, E *contient + est sous* D
 
 
   
@@ -130,7 +126,7 @@ Toutes les relations d'une UE sont regroupées dans le bloc *Relations stratigra
 
 Si vous cliquez sur une ligne dont l'intitulé est *sous (2)*, vous serez conduit sur une page listant toutes les UE dont la relation indique qu'elles sont *sous* l'UE courante.
 
-L'application ne détecte pas les erreurs de circularité [#f3]_ et ne créé pas de relation récursive [#f4]_. Il n'y pas d'automatisations plus avancées telles que la création de relations récursives. Il est recommandé d'utiliser le logiciel Le Stratifiant [#f5]_ qui vous aidera à vous assurer de l'intégrité relationnelle de vos UE et à exporter les diagrammes stratigraphiques (l'export *stratigrapique simplifié* vous facilite considérablement le travail). N'attendez pas la fin de votre opération avant de procéder à ces vérifications !
+L'application ne détecte pas les erreurs de circularité [#f3]_ et ne créé pas de relation récursive [#f4]_. Il n'y pas d'automatisations plus avancées telles que la création de relations récursives. Il est recommandé d'utiliser le logiciel Le Stratifiant [#f5]_ qui vous aidera à vous assurer de l'intégrité relationnelle de vos UE et à exporter les diagrammes stratigraphiques (l'export *stratigrapique simplifié* vous facilite considérablement le travail).
 
 .. note::
     **Remplissage rapide !**
@@ -210,4 +206,4 @@ L'export disponible sous le nom *export stratigraphique simplifié* rassemble to
 
 .. [#f3] Si 1 est en-dessous de 2 et 2 en-dessous de 3 alors 1 ne peut être au-dessus de 3.
 .. [#f4] Si 1 est en-dessous de 2 et 2 en-dessous de 3 alors 3 est mis en relation automatiquement sous 1.
-.. [#f5] Logiciel conçu Bruno Desachy, disponible sur `le-nid-du-stratifiant.ouvaton.org <http://le-nid-du-stratifiant.ouvaton.org/>`_.
+.. [#f5] Logiciel conçu par Bruno Desachy, disponible sur `le-nid-du-stratifiant.ouvaton.org <http://le-nid-du-stratifiant.ouvaton.org/>`_.
