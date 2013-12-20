@@ -213,10 +213,10 @@ L'export disponible sous le nom *export stratigraphique simplifié* rassemble to
    :header: "UE1", "relation", "UE3"
    :widths: 10, 20, 10
    
-   4	sous	67
-   14	sous	4
-   46	sous	47
-   46	synchrone	48
+   4,sous,67
+   14,sous,4
+   46,sous,47
+   46,synchrone,48
 
 
 .. [#f3] Si A est en-dessous de B et B en-dessous de C alors A ne peut être au-dessus de C.
