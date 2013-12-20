@@ -35,7 +35,7 @@ Périodes chronologiques disponibles
 
 .. csv-table:: Bornes des périodes chronologiques
    :header: "Période", "TPQ", "TAQ"
-   :widths: 20, 10, 10
+   :widths: 30, 10, 10
 
    Paléolithique,-3000000,-9600
    * Paléolithique Ancien,-3000000,-300000
@@ -59,8 +59,8 @@ Périodes chronologiques disponibles
    Âge du Fer,-800,-54
    * 1er Âge du Fer,-800,-450
    * 2nd Âge du Fer,-450,-54
-   Gallo-Romain,-54,476
-   * République,-54,-27
+   Gallo-Romain,-52,476
+   * République,-52,-27
    * Empire,-27,476
    * Haut-Empire,-27,235
    * Bas-Empire,235,476
