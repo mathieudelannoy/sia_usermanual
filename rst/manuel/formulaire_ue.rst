@@ -78,8 +78,8 @@ Les termes définissants les relations stratigraphiques pouvant être établies 
 
    "sur","sous"
    "a coupé","coupé par"
-   "est égal à",""
-   "synchrone",""
+   "est égal à","est égal à"
+   "synchrone","synchrone"
    "appartient à + est sur","contient + est sous"
    "appartient à","contient"
 
@@ -100,7 +100,12 @@ Les relations qui en découlent sont les suivantes :
    E *coupé par* A, A *a coupé* E
    D *appartient à + est sur* E, E *contient + est sous* D
 
-
+.. note::
+    **Différence entre l'appartenance et la stratigraphie**
+	
+	La relation *appartient à* permet d'indiquer qu'un niveau de comblement appartient à une structure bien précise, la relation *sur* indique que ce comblement est stratigraphiquement au-dessus du creusement. Le problème est qu'aucune de ces relations n'est complète à elle seule, d'où la relation *appartient à + est sur* (et son contraire *contient + est sous*) qui cumule l'appartenance et la position stratigraphique.
+	
+	La stratigraphie va permettre de réaliser les diagrames. L'appartenance va permettre de transmettre la position de la structure à son niveau et à tous les mobiliers qui y sont contenus; les avantages sont la possibilité de situer spatialement ces UEs et de renseigner automatiquement la parcelle dans les exports mobiliers.
   
 Créer une relation
 """"""""""""""""""""
