@@ -81,6 +81,10 @@ A quoi correspond la colonne "WKT" ?
 
 Le format Well-known text, abrégé en *WKT*, peut se traduire par « texte bien lisible ». C'est un format standard en mode texte utilisé pour représenter des objets géométriques vectoriels issus des systèmes d’informations géographiques (SIG). 
 
+* POINT (30 10)
+* LINESTRING (30 10, 10 30, 40 40)
+* POLYGON ((30 10, 40 40, 20 40, 10 20, 30 10)
+
 La présence de cette colonne vous permet d'importer le fichier CSV dans une application telle que Quantum GIS pour visualiser vos enregistrements de manière cartographique et dans le cas de l'export du mobilier, de produire des cartes de répartition en utilisant les données attributaires.
 
 Comment obtenir un export différent de ceux par défaut ?
