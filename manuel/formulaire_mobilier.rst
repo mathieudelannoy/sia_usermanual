@@ -52,56 +52,77 @@ Les champs spécialistes
 Afin de répondre aux besoins des études de mobiliers, des champs supplémentaires peuvent être activés pour les mobiliers suivants :
 
 - anthropologie
-	- Région anatomique
-	- Os principal
-	- Os partie concernée
-	- Caractères discrets
-	- [...]
+	- État de la sépulture, état de conservation de la sépulture (intacte, remaniée, détruite)
+	- Type d'inhumation, type de sépulture dans laquelle a été faite l'inhumation du corps
+	- Espace d'inhumation, espace dans lequel s'est effectuée la décomposition du corps
+	- Orientation du squelette, orientation du squelette dans la sépulture
+	- Position générale du corps, position du squelette dans la sépulture (allongé sur le dos, le côté, assis...)
+	- Âge, estimation de l'âge au décès de l'individu
+	- Méthode âge, méthode utilisée pour estimer l'âge au décès de l'individu
+	- Sexe, détermination du sexe de l'individu
+	- Sexe méthode utilisée, méthode utilisée pour déterminer le sexe de l'individu
+	- Codification, stade de synostose ou de pathologie atteint par l'os
+	- Compression, membres sur lesquels ont été observés des compressions (par un contenant, étroitesse fosse)
+	- Mise à plat du thorax, niveau d'effondrement du thorax
+	- Position ceinture pelvienne, niveau d'ouverture du bassin
+	- Rotation membres inferieurs, présence d'un mouvement rotatif des membres inférieurs
+	- Effet paroi pied, présence d'un effet de paroi du contenant sur les pieds
+	- Région anatomique, détermination de la région anatomique à laquelle appartient le reste 
+	- Os principal, détermination de l'os 
+	- Os partie concernée, détermination de la partie de l'os présente
+	- Latéralisation, détermination du côté (droit, gauche, indéterminé)
+	- Face d'apparition, face de l'os présentée dans la tombe (antérieure, postérieure…)
+	- Position in situ, position de l'os dans la tombe
+	- Symétrie, symétrie des membres droit et gauche
+	- Caractères discrets, caractéristiques héréditaires et non pathologiques d'un os
+	- Caractères scopiques, variations anatomiques de l'os
+	- Indice, calcul de l'indice de robustesse ou d'applatissement de l'os
 - archéozoologie
-	- Âge
-	- Espèce
-	- Region anatomique
-	- Os principal
-	- Os partie concernee
-	- Latéralisation
-	- Epiphysation
-	- Sexe
-	- Trace
+	- Espèce, détermination de l'espèce animale à laquelle appartient le reste
+	- Region anatomique, détermination de la région anatomique à laquelle appartient le reste 
+	- Os principal, détermination de l'os 
+	- Os partie concernee, détermination de la partie de l'os présente
+	- Latéralisation, détermination du côté (droit, gauche, indéterminé)
+	- Epiphysation, détermination du degré d'épiphysation de l'os
+	- Sexe, détermination du sexe de l'animal
+	- Âge, détermination de l'âge d'abattage de l'animal
+	- Trace, traces anthropiques ou naturelles observables sur l'os
 - céramique
-	- Catégorie
-	- Type
-	- Pâte
-	- Bord
-	- Panse
-	- Fond
-	- Anse
-	- NMI
-	- Décor
-	- Cuisson
-	- Traitement de surface
-	- Description lèvre
-	- Description bord
-	- Description col
-	- Description épaulement
-	- Description panse
-	- Description fond
-	- Réf. biblio.
+	- Bord, nombre de tessons de bords présents dans le lot étudié
+	- Panse, nombre de tessons de panse présents dans le lot étudié
+	- Fond, nombre de tessons de fond présents dans le lot étudié
+	- Anse, nombre de tessons d'anse ou de système de préhension ou de suspension diverse présents dans le lot étudié
+	- NMI, Nombre Minimum d'Individus identifié dans le lot étudié
+	- Type, identification de la forme de l'individu 
+	- Catégorie, classement par groupe de pâte
+	- Pate, identification technique de la pâte et de ses inclusions
+	- Cuisson, caractérisation de l'atmosphère de cuisson
+	- Façonnage, identification des techniques de façonnage 
+	- Traitement de surface, identification des techniques de finition et revêtement
+	- Décor, description technique et typologique du décor
+	- Description lèvre, caractérisation typologique de la lèvre
+	- Description bord, caractérisation typologique du bord
+	- Description col, caractérisation typologique du col
+	- Description épaulement, caractérisation typologique de l'épaulement
+	- Description panse, caractérisation typologique de la panse
+	- Description fond, caractérisation typologique du fond
+	- Réf. biblio, citation d'éléments de comparaison les plus probants
 - lapidaire
-	- Revêtement
-	- Liant
-	- Marquage
+	- Revêtement, tout apport de matière couvrant la face visible du bloc (badigeon, enduit, peinture, feuille d'or, etc.)
+	- Liant, traces éventuelles de mortier, ciment, joints autre, etc.
+	- Marquage, marques de tailleurs, graffiti, inscriptions autres, etc.
 - lithique
-	- Technologie
-	- Typologie
-	- Fragment
+	- Technologie, détermination du support débité
+	- Typologie, détermination du type de pièce retouchée
+	- Fragment, type de fragment de l'objet présent
 - monnaie
-	- Représentation
-	- Inscription avers
-	- Description avers
-	- Inscription revers
-	- Description revers
-	- Exergue
-	- Atelier
+	- Représentation, type de monnaie
+	- Inscription avers, déchiffrer l'inscription de l'avers
+	- Description avers, décrire les representations de l'avers
+	- Inscription revers, déchiffrer l'inscription du revers
+	- Description revers, décrire les representations du revers
+	- Exergue, espace inferieur de la face d'une monnaie, on y trouve la date, le nom de l'atelier ou du graveur, etc.
+	- Atelier, ville ou se situe l'atelier monétaire
 
 L'activation se fait en sélectionnant la spécialité dans la liste déroulante *Choisir la spécialité* située en bas du formulaire, cette action n'est pas réversible. Les spécialités sont mutuellement exclusives et sont strictement conditionnées par les valeurs sélectionnées dans les champs *Matière* et *Matière type*.
 
@@ -214,4 +235,4 @@ Ces exports comprennent l'intégralité des champs spécialistes ainsi que toute
 - céramique
 - lapidaire
 - lithique
-- monnétaire
+- monétaire
