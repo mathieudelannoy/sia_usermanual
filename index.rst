@@ -19,6 +19,7 @@ Contents:
    manuel/formulaire_contenant
    manuel/formulaire_traitement
    manuel/formulaire_regie
+   manuel/gestion_utilisateur
    manuel/questions_frequentes
    manuel/participants
    manuel/changelog
