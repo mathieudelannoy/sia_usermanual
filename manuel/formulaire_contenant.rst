@@ -22,17 +22,17 @@ Il est important de bien noter qu'un mobilier n'est pas nécessairement associé
 Les informations générales
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- **Numéro** : **saisie obligatoire**
-- **Matière contenant** : **saisie obligatoire**, cette liste indique la matière générale contenue (pour des raisons de conservation, il n'y a pas de mélange de matières différentes dans un même contenant)
-- **Type de contenant** : **saisie obligatoire**
-- **Longueur prédéfinie** : lors du choix d'un contenant normé (ex. des bac N.E.), une liste de mesures existantes s'affiche afin de garantir une saisie correcte
-- **Largeur prédéfinie**
-- **Hauteur prédéfinie** : 
-- **Longueur** : si le contenant ne dispose pas d'une liste de mesures normées, il est possible de les saisir manuellement
-- **Largeur**
-- **Hauteur**
-- **Volume** : le volume est calculé automatiquement en cm³ à partir des mesures précédemment saisies
-- **Poids** : indique la masse totale des mobiliers contenus 
+:Numéro: **saisie obligatoire**
+:Matière contenant: **saisie obligatoire**, cette liste indique la matière générale contenue (pour des raisons de conservation, il n'y a pas de mélange de matières différentes dans un même contenant)
+:Type de contenant: **saisie obligatoire**
+:Longueur prédéfinie: lors du choix d'un contenant normé (ex. des bac N.E.), une liste de mesures existantes s'affiche afin de garantir une saisie correcte
+:Largeur prédéfinie:
+:Hauteur prédéfinie: 
+:Longueur: si le contenant ne dispose pas d'une liste de mesures normées, il est possible de les saisir manuellement
+:Largeur:
+:Hauteur:
+:Volume: le volume est calculé automatiquement en cm³ à partir des mesures précédemment saisies
+:Poids: indique la masse totale des mobiliers contenus 
 
 Les documents liés
 ^^^^^^^^^^^^^^^^^^
