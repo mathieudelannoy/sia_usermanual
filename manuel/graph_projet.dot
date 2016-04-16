@@ -1,0 +1,12 @@
+digraph test {
+rankdir=LR;
+
+node [shape=box style=rounded];
+
+Projet [style=rounded color=grey82];
+
+Document -> Projet
+Mobilier -> Projet
+Phase -> Projet
+UE -> Projet
+}
