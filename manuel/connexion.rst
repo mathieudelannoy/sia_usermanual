@@ -32,16 +32,17 @@ Un compte utilisateur peut disposer de plusieurs rôles qu'il est nécessaire de
 
 Les rôles d'un compte utilisateur peuvent être différents de la fonction exercée.
 
-Il existe 8 rôles :
+Il existe 9 rôles :
 
 - *administrateur* : ce rôle peut accéder à tout, il est destiné à la gestion opérationnelle du SIA
+- *médiateur* : ce rôle est limité à la création et l'association de documents
+- *null* : ce rôle ne procure aucun droit
 - *secrétaire* : ce rôle est limité aux renseignements administratifs et à la documentation associée
+- *spécialiste* : ce rôle a les mêmes accès que celui de technicien mais peut utiliser les champs de spécialisation du formulaire de mobilier ainsi que renseigner les traitements effectués
+- *référent SIG* : ce rôle est destiné à l'ajout et à la modification des données géographiques du projet
+- *régie* : ce rôle a accès au formulaire de régie permettant la gestion du stockage des contenants et du mouvement des mobiliers
 - *RO/adjoint* : ce rôle a accès à tous les formulaires
 - *technicien* : ce rôle a accès aux formulaires d'UE, de mobilier (les champs généralistes) et de documentation
-- *spécialiste* : ce rôle a les mêmes accès que celui de technicien mais peut utiliser les champs de spécialisation du formulaire de mobilier ainsi que renseigner les traitements effectués
-- *régie* : ce rôle a accès au formulaire de régie permettant la gestion du stockage des contenants et du mouvement des mobiliers
-- *médiateur* : ce rôle est limité à la création et l'association de documents
-- *référent SIG* : ce rôle est destiné à l'ajout et à la modification des données géographiques du projet
 
 Accéder au SIA
 --------------
