@@ -3,6 +3,13 @@
 Liste des changements
 ==================================
 
+2015
+^^^^
+
+- interface de gestion des utilisateurs
+  - création de nouveau utilisateur
+  - association à un projet via le panier
+
 2013
 ^^^^
 
