@@ -16,7 +16,7 @@ L'interface
 ^^^^^^^^^^^
 
 ..	image:: ./fig/gestion_utilisateur_creation.png
-	:width: 2.7cm
+	:width: 4cm
 	:align: center
 
 L'accès à cette gestion se fait par le lien *Gérer les utilisateurs* présent dans la partie supérieure de la page d'acceuil des projets. Ce lien conduit vers une page listant l'intégralité des comptes utilisateurs dans l'ordre alphabetique, cette interface reprend le mode de fonction de la page de résultat de recherche (:ref:`recherche-utilisation`).
@@ -44,6 +44,7 @@ Chaque utilisateur peut être défini par les détails suivants :
     **Rôle par défaut != rôle par projet**
     
     Le rôle d'un utilisateur peut être différent d'un projet à l'autre, il n'est pas conseillé de mettre un rôle par défaut donnant des droits élevé si le besoin de ces droits ne s'applique qu'à un seul projet bien précis. Si vous définissez un agent auto-associé comme ayant par défaut le rôle *ro_adjoint*, il pourra modifier toutes les informations de **tous** vos nouveaux projets. 
+    
     Mettez un rôle par défaut répondant aux besoins minimums (p.ex. *mediateur* pour un accès en lecture) et changez le rôle au cas par cas lors de l'association à un projet.
 
 Création d'un nouvel utilisateur
@@ -56,11 +57,10 @@ Création d'un nouvel utilisateur
    a. cochez *auto-associer* uniquement si vous voulez que cet utilisateur soit lié à tout vos nouveaux projet
    b. mettez un rôle par défaut ayant le minimum de droit (cf. :ref:`def-role`)
    c. décochez la case *actif* si cet individu n'a pas vocation à se connecter au SIA
-   
 4. Cliquez sur *Enregistrer* si vous n'aviez qu'un utilisateur à intégrer ou sur *Enregistrer et créer* si vous en avez une série.
 
 ..	image:: ./fig/gestion_utilisateur_fiche.png
-	:width: 7cm
+	:width: 8cm
 	:align: center
 
 Associer un utilisateur à un projet
@@ -70,13 +70,11 @@ Associer un utilisateur à un projet
 
    a. en cliquant sur le bouton vert du panier puis sur * ajouter à la sélection*
    b. en cochant dans liste tous les individus concernés puis en cliquant sur le bouton bleu *placer dans la sélection*
-   
 2. Déplacez-vous sur la page d'acceuil du projet auquel vous voulez lier l'utilisateur ou actualisez la page du projet
 3. Cliquez sur le panier
 
    a. sélectionnez une fonction, elle indique le motif de la participation au projet (céramologue, consultation, récolement, etc.)
    b. sélectionnez un rôle, ce choix affecte les droits d'accès et est spécifique à ce projet
-   
 4. Cliquez sur le bouton *Associer* pour terminer
 
 Cette procédure va définir un seul type de relation pour les individus sélectionnés. Si vous voulez définir des associations fonction/rôle distinctes pour chaque individu, il faudra répéter la maoeuvre autant de fois que vous avez d'associations.
