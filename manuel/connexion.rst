@@ -19,6 +19,8 @@ Une demande de compte doit être formulée par email à l'`administrateur <admin
 
 Après validation du directeur du Centre départemental d’Archéologie, un email vous sera envoyé vous indiquant vos identifiants de connexion.
 
+.. _`def-roles`:
+
 Les différents rôles
 --------------------
 
