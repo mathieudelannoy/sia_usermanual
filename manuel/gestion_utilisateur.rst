@@ -54,9 +54,9 @@ Création d'un nouvel utilisateur
 #. Cliquez sur le bouton *Créer un individu*
 #. Saisissez les informations obligatoires
 
-   #. cochez *auto-associer* uniquement si vous voulez que cet utilisateur soit lié à tout vos nouveaux projet
-   #. mettez un rôle par défaut ayant le minimum de droit (cf. :ref:`def-role`)
-   #. décochez la case *actif* si cet individu n'a pas vocation à se connecter au SIA
+   a. cochez *auto-associer* uniquement si vous voulez que cet utilisateur soit lié à tout vos nouveaux projet
+   b. mettez un rôle par défaut ayant le minimum de droit (cf. :ref:`def-role`)
+   c. décochez la case *actif* si cet individu n'a pas vocation à se connecter au SIA
 #. Cliquez sur *Enregistrer* si vous n'aviez qu'un utilisateur à intégrer ou sur *Enregistrer et créer* si vous en avez une série.
 
 ..	image:: ./fig/gestion_utilisateur_fiche.png
@@ -68,13 +68,13 @@ Associer un utilisateur à un projet
 
 1. Via la page *Individus*, ajoutez un ou plusieurs utilisateurs
 
-   #. en cliquant sur le bouton vert du panier puis sur * ajouter à la sélection*
-   #. en cochant dans liste tous les individus concernés puis en cliquant sur le bouton bleu *placer dans la sélection*
+   a. en cliquant sur le bouton vert du panier puis sur * ajouter à la sélection*
+   b. en cochant dans liste tous les individus concernés puis en cliquant sur le bouton bleu *placer dans la sélection*
 #. Déplacez-vous sur la page d'acceuil du projet auquel vous voulez lier l'utilisateur ou actualisez la page du projet
 #. Cliquez sur le panier
 
-   #. sélectionnez une fonction, elle indique le motif de la participation au projet (céramologue, consultation, récolement, etc.)
-   #. sélectionnez un rôle, ce choix affecte les droits d'accès et est spécifique à ce projet
+   a. sélectionnez une fonction, elle indique le motif de la participation au projet (céramologue, consultation, récolement, etc.)
+   b. sélectionnez un rôle, ce choix affecte les droits d'accès et est spécifique à ce projet
 #. Cliquez sur le bouton *Associer* pour terminer
 
 Cette procédure va définir un seul type de relation pour les individus sélectionnés. Si vous voulez définir des associations fonction/rôle distinctes pour chaque individu, il faudra répéter la maoeuvre autant de fois que vous avez d'associations.
