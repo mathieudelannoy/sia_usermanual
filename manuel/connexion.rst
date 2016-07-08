@@ -36,24 +36,34 @@ Les rôles d'un compte utilisateur peuvent être différents de la fonction exer
 
 Il existe 9 rôles :
 
-- *administrateur* : ce rôle peut accéder à tout, il est destiné à la gestion opérationnelle du SIA
-- *médiateur* : ce rôle est limité à la création et l'association de documents
-- *null* : ce rôle ne procure aucun droit
-- *secrétaire* : ce rôle est limité aux renseignements administratifs et à la documentation associée
-- *spécialiste* : ce rôle a les mêmes accès que celui de technicien mais peut utiliser les champs de spécialisation du formulaire de mobilier ainsi que renseigner les traitements effectués
-- *référent SIG* : ce rôle est destiné à l'ajout et à la modification des données géographiques du projet
-- *régie* : ce rôle a accès au formulaire de régie permettant la gestion du stockage des contenants et du mouvement des mobiliers
-- *RO/adjoint* : ce rôle a accès à tous les formulaires
-- *technicien* : ce rôle a accès aux formulaires d'UE, de mobilier (les champs généralistes) et de documentation
+administrateur : 
+	ce rôle peut accéder à tout, il est destiné à la gestion opérationnelle du SIA
+médiateur : 
+	ce rôle est limité à la création et l'association de documents
+null :
+	ce rôle ne procure aucun droit
+secrétaire :
+	 ce rôle est limité aux renseignements administratifs et à la documentation associée
+spécialiste : 
+	 ce rôle a les mêmes accès que celui de technicien mais peut utiliser les champs de spécialisation du formulaire de mobilier ainsi que renseigner les traitements effectués
+référent SIG : 
+	 ce rôle est destiné à l'ajout et à la modification des données géographiques du projet
+régie : 
+	 ce rôle a accès au formulaire de régie permettant la gestion du stockage des contenants et du mouvement des mobiliers
+RO/adjoint : 
+	 ce rôle a accès à tous les formulaires
+technicien : 
+	 ce rôle a accès aux formulaires d'UE, de mobilier (les champs généralistes) et de documentation
 
 Accéder au SIA
 --------------
 
 L'entrée dans l'application se fait via le site internet `sia.archeologie.pasdecalais.fr <http://sia.archeologie.pasdecalais.fr/>`_ dans votre navigateur.
 
-..	figure:: ./fig/accueil_sia_liste_projets.png
+..	image:: ./fig/accueil_sia_liste_projets.png
 	:scale: 40%
 	:alt: Page d'accueil du SIA
+	:align: center
 
 Veuillez saisir vos identifiants dans les 2 boîtes situées en bas à droite de la page puis cliquez sur le bouton *Go*.
 
