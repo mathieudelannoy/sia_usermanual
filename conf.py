@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Système d\'Informations Archéologiques'
-copyright = u'CG62 / CDA - 2013'
+copyright = u'CD62 / CDA - 2016'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -190,7 +190,7 @@ latex_elements = {'babel': '\\usepackage[frenchb]{babel}',}
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [('index', 'manuel_sia.tex', u'Documentation utilisateur du Système d\'Informations Archéologiques',
-   u'Centre départemental d\'Archéologie - CG62', 'manual'),]
+   u'Direction de l\'Archéologie - CGD2', 'manual'),]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
@@ -219,7 +219,7 @@ latex_show_pagerefs = True
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'manuel_sia', u'Documentation utilisateur du Système d\'informations archéologiques',
-   u'Centre départemental d\'Archéologie - CG62', 'manuel_sia', 'Manuel d\'utilisation du SIA',
+   u'Direction de l\'Archéologie - CD62', 'manuel_sia', 'Manuel d\'utilisation du SIA',
    'Miscellaneous'),
 ]
 
