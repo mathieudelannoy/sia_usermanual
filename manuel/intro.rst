@@ -1,7 +1,7 @@
 ﻿Introduction
 ============
 
-De par ses missions, le `Centre départemental d’Archéologie <http://archeologie.pasdecalais.fr/>`_ collecte, produit et diffuse des informations archéologiques : scientifiques, iconographiques, géographiques, administratives.
+De par ses missions, la `Direction de l'Archéologie <http://archeologie.pasdecalais.fr/>`_ du Pas-de-Calais collecte, produit et diffuse des informations archéologiques : scientifiques, iconographiques, géographiques, administratives.
 
 Objectif
 --------
@@ -11,13 +11,13 @@ L’objectif principal de la mise en place du Système d’Informations Archéol
 Historique du projet
 --------------------
 
-La prise de compétence en archéologie préventive par le Centre départemental d’Archéologie du Pas-de-Calais fin 2007 a accéléré la production d’informations archéologiques. Dès les premières opérations et l’arrivée d’archéologues provenant d’horizons différents, les questions de l’harmonisation des pratiques et de la mutualisation des données se sont posées.
+La prise de compétence en archéologie préventive par la Direction de l'Archéologie du Pas-de-Calais fin 2007 a accéléré la production d’informations archéologiques. Dès les premières opérations et l’arrivée d’archéologues provenant d’horizons différents, les questions de l’harmonisation des pratiques et de la mutualisation des données se sont posées.
 
 En 2008, la première étape fut la normalisation du nommage des fichiers et l’organisation des répertoires pour l’ensemble des opérations archéologiques (diagnostic, fouilles préventives, fouilles programmées).
 
 En 2009, les inventaires de la section 3 du rapport final d’opération, exigence de l’arrêté du 27 septembre 2004, sont harmonisés. Ils sont basés sur les fiches d’enregistrement de terrain. Ils fixent une liste de champs à remplir et des listes de termes à employer. Déployés sous excel, ils sont conformes aux classeurs de transmissions ministériels. 
 
-En 2010, suite à la stabilisation des inventaires, une réflexion est menée avec la Direction des Systèmes d’Informations du Conseil général pour intégrer l’ensemble des données dans une base de données associée à un système d’information géographique. La solution retenue est le développement d’une application métier basée sur le logiciel libre Georchestra. 
+En 2010, suite à la stabilisation des inventaires, une réflexion est menée avec la Direction des Systèmes d’Informations du Conseil départemental pour intégrer l’ensemble des données dans une base de données associée à un système d’information géographique. La solution retenue est le développement d’une application métier basée sur le logiciel libre Georchestra. 
 
 En novembre 2010, une inscription budgétaire de 200.000 € sur 4 ans est votée. En février 2011, la consultation est lancée et le marché est attribué à la société Camptocamp en juin 2011. Six mois sont nécessaires pour définir les spécifications fonctionnelles comprenant le schéma de la base de données. Le développement intervient en 2012. Les formulaires projet et unité d’enregistrement (UE) sont livrés en juin 2012. Les autres formulaires ainsi que le module de recherche sont livrés en septembre 2012. 
 
