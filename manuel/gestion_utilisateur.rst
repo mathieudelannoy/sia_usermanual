@@ -70,11 +70,14 @@ Associer un utilisateur à un projet
 
    a. en cliquant sur le bouton vert du panier puis sur * ajouter à la sélection*
    b. en cochant dans liste tous les individus concernés puis en cliquant sur le bouton bleu *placer dans la sélection*
+   
 #. Déplacez-vous sur la page d'acceuil du projet auquel vous voulez lier l'utilisateur ou actualisez la page du projet
+
 #. Cliquez sur le panier
 
    a. sélectionnez une fonction, elle indique le motif de la participation au projet (céramologue, consultation, récolement, etc.)
    b. sélectionnez un rôle, ce choix affecte les droits d'accès et est spécifique à ce projet
+   
 #. Cliquez sur le bouton *Associer* pour terminer
 
 Cette procédure va définir un seul type de relation pour les individus sélectionnés. Si vous voulez définir des associations fonction/rôle distinctes pour chaque individu, il faudra répéter la maoeuvre autant de fois que vous avez d'associations.
@@ -94,4 +97,4 @@ Dissocier un utilisateur d'un projet
 Supprimer un utilisateur
 ------------------------
 
-Même si la suppression est possible, il est preferable d'enlever le statut *actif* de ce compte car un utilisateur car il peut être lié à des enregistrements en tant qu'auteur d'un document, prestataire d'une régie, etc.
+Même si la suppression est possible, il est préférable d'enlever le statut *actif* de ce compte utilisateur car il peut être lié à des enregistrements en tant qu'auteur d'un document, prestataire d'une régie, etc.
