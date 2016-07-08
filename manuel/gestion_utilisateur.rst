@@ -67,15 +67,13 @@ Associer un utilisateur à un projet
 -----------------------------------
 
 1. Via la page *Individus*, ajoutez un ou plusieurs utilisateurs
-
-   a. en cliquant sur le bouton vert du panier puis sur * ajouter à la sélection*
-   b. en cochant dans liste tous les individus concernés puis en cliquant sur le bouton bleu *placer dans la sélection*
-2. Déplacez-vous sur la page d'acceuil du projet auquel vous voulez lier l'utilisateur ou actualisez la page du projet
-3. Cliquez sur le panier
-
-   a. sélectionnez une fonction, elle indique le motif de la participation au projet (céramologue, consultation, récolement, etc.)
-   b. sélectionnez un rôle, ce choix affecte les droits d'accès et est spécifique à ce projet
-4. Cliquez sur le bouton *Associer* pour terminer
+   #. en cliquant sur le bouton vert du panier puis sur * ajouter à la sélection*
+   #. en cochant dans liste tous les individus concernés puis en cliquant sur le bouton bleu *placer dans la sélection*
+#. Déplacez-vous sur la page d'acceuil du projet auquel vous voulez lier l'utilisateur ou actualisez la page du projet
+#. Cliquez sur le panier
+   #. sélectionnez une fonction, elle indique le motif de la participation au projet (céramologue, consultation, récolement, etc.)
+   #. sélectionnez un rôle, ce choix affecte les droits d'accès et est spécifique à ce projet
+#. Cliquez sur le bouton *Associer* pour terminer
 
 Cette procédure va définir un seul type de relation pour les individus sélectionnés. Si vous voulez définir des associations fonction/rôle distinctes pour chaque individu, il faudra répéter la maoeuvre autant de fois que vous avez d'associations.
 
@@ -87,9 +85,9 @@ Dissocier un utilisateur d'un projet
 ------------------------------------
 
 1. Sélectionnez l'utilisateur et placez le dans votre panier
-2. Déplacez-vous sur le projet
-2. Cliquez sur le panier
-3. Cliquez sur le bouton *Dissocier*
+#. Déplacez-vous sur le projet
+#. Cliquez sur le panier
+#. Cliquez sur le bouton *Dissocier*
 
 Supprimer un utilisateur
 ------------------------
