@@ -34,8 +34,6 @@ Elle comprend des formulaires de saisie et un outil de recherche liés à un sys
 
 Cette application est accessible via Internet (Extranet) et pourra être consultée et/ou enrichie par des personnels extérieurs au Centre : Service Régional de l’Archéologie, opérateurs en archéologie préventive, chercheurs, étudiants, collaborateurs en fonction des projets (opérations de terrain, Projet Collectif de Recherche, publications, expositions).
 
-Le SIA est également lié à la suite logiciel libre `Georchestra <http://www.georchestra.org/>`_ pour la gestion de l’ensemble des données cartographiques créées.
-
 .. _`def-projet`:
 
 La notion de projet
