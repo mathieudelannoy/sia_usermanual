@@ -45,7 +45,7 @@ L’établissement d’un vocabulaire archéologique faisant consensus est une t
 
 Les listes du SIA sont figées, c'est-à-dire que chaque utilisateur emploie les mêmes termes que les autres sans possibilités de personnalisation. Cela permet d’assurer un enregistrement homogène dans tous les projets et d’éviter les écueils de thésaurus trop spécifiques et peu compréhensibles par le reste des usagers.
 
-Des valeurs peuvent être ajoutées ou modifiées dans certaines listes après discussion entre les différents intervenants et validation par les chefs de service et le directeur du Centre. Toute modification est répercutée sur l’ensemble des projets, aussi bien ceux en cours que ceux archivés.
+Des valeurs peuvent être ajoutées ou modifiées dans certaines listes après discussion entre les différents intervenants et validation par les chefs de service et le directeur. Toute modification est répercutée sur l’ensemble des projets, aussi bien ceux en cours que ceux archivés.
 
 La suppression de la fiche n'a pas supprimé ses relations !
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -85,7 +85,7 @@ Le format Well-known text, abrégé en *WKT*, peut se traduire par « texte bien
 * LINESTRING (30 10, 10 30, 40 40)
 * POLYGON ((30 10, 40 40, 20 40, 10 20, 30 10)
 
-La présence de cette colonne vous permet d'importer le fichier CSV dans une application telle que Quantum GIS pour visualiser vos enregistrements de manière cartographique et dans le cas de l'export du mobilier, de produire des cartes de répartition en utilisant les données attributaires.
+La présence de cette colonne vous permet d'importer le fichier CSV dans une application telle que QGIS pour visualiser vos enregistrements de manière cartographique et dans le cas de l'export du mobilier, de produire des cartes de répartition en utilisant les données attributaires.
 
 Comment obtenir un export différent de ceux par défaut ?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -98,7 +98,7 @@ Le logiciel
 A qui appartient le SIA ?
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-L'application-métier est la propriété du Centre départemental d'Archéologie du CG62.
+L'application-métier est la propriété de la Direction de l'Archéologie du Pas-de-Calais.
 
 Quel est la licence utilisée ?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
