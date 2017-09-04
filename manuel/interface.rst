@@ -42,6 +42,11 @@ Le contenu du bloc se compose d'une série de liens, leur apparition est dynamiq
 * sur une page de résultat dans le cas d'un lien de décompte (p. ex. pour le mobilier *céramique [14]*)
 * directement sur la page de l'enregistrement dans le cas d'un lien de relation (*Abandon (462 / 480)*)
 
+.. note::
+    **Faire apparaître tous les blocs**
+    
+   Pour faire apparaître toutes les blocs (les bulles colorées pour les mesures, relations, contenants, etc.), il faut enregistrer la fiche de formulaire. Tant que la fiche ne l'a pas été au moins une fois, le formulaire se limitera aux champs et listes minimaux.
+
 Le cadre cartographique
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -56,17 +61,14 @@ Enregistrer un formulaire
 
 Lorsque des données sont saisies dans un formulaire, il est **impératif** de cliquer sur le bouton :guilabel:`Enregistrer` pour que celles-ci soient sauvegardées par l'application. Pour éviter des erreurs de saisies non-voulues, il n'y a **aucune** sauvegarde automatisée.
 
-Le bouton :guilabel:`Enregistrer et créer` permet de procéder en un seul clic à l'enregistrement de la page courante et à l'ouverture d'une nouvelle page vide prête à la saisie. Ce mode est particulièrement adapté à la saisie à la chaîne.
+Le bouton :guilabel:`Enregistrer et créer` permet de procéder en un seul clic à l'enregistrement de la page courante et à l'ouverture d'une nouvelle page prête à la saisie. Ce mode est particulièrement adapté à la saisie à la chaîne car les informations saisies dans la première fiche sont automatiquement reportées dans la nouvelle, il n'y pas besoin de resaisir les informations générales qui ne varient pas entre les enregistrements. Par contre, il faut faire bien attention à ne pas laisser des informations présentes sur le modèle mais qui ne s'appliquent pas à la nouvelle fiche.
 
 .. warning::
     **Perte des modifications**
     
    Toute donnée non-enregistrée lorsque l'utilisateur quitte un formulaire est considérée comme perdue. Il est toutefois possible de revenir en arrière en utilisant la fonction *Reculer d'une page* présente dans tous les navigateurs, l'utilisateur peut alors enregistrer les données modifiées. Cette fonction est très pratique mais ne doit pas devenir un modus operandi car le nombre de retours possibles n'est pas infini, il suffirait d'un plantage de l'ordinateur pour que tout se volatilise.
 
-.. note::
-    **Faire apparaître tous les blocs**
-    
-   Pour faire apparaître toutes les blocs (les bulles colorées pour les mesures, relations, contenants, etc.), il faut enregistrer la fiche de formulaire. Tant que la fiche ne l'a pas été au moins une fois, le formulaire se limitera aux champs et listes minimaux.
+
 
 Se déplacer
 -------------
@@ -183,7 +185,7 @@ Remplir par remplissage rapide
 
 L'utilisateur clique sur le bouton :guilabel:`Remplissage rapide`. Une nouvelle fenêtre s'ouvre dans laquelle il est possible de saisir à la main les différents numéros d'UE qui seront ajoutés au panier, sans que cela supprime ceux qui y figuraient déjà. Cette fonction est pratique dans le cas des relations stratigraphiques puisqu'il n'est alors pas nécessaire de parcourir chacune des fiches UE pour les ajouter à la sélection. 
 
-La saisie des numéros d'UE se fait en tapant chaque numéro à la suite en les séparant par un point-virgule (:kbd:`;`), *31;64;75*.
+La saisie des numéros d'UE se fait en tapant chaque numéro à la suite en les séparant par un point-virgule :kbd:`;`, *31;64;75*.
 
 Pour accélérer la saisie, il est possible de définir des intervalles pour sélectionner un groupe d'UEs en indiquant une borne minimale et une borne maximale séparées par le caractère :kbd:`-`, l'intervalle *5-200* remplira le panier avec toutes les UEs dont le numéro est supérieurs ou égaux à 5 mais inférieurs ou égaux à 200.
 
