@@ -13,7 +13,12 @@ Les contenants enregistrent la disposition et la répartition physique des mobil
 Renseigner
 ----------
 
-La création initiale d'un contenant se fait obligatoirement en passant par un enregistrement mobilier existant, la relation entre les deux étant établie de manière automatique. Cette obligation a pour but d'éviter la création de contenants superflus et ne correspondant pas à une réalité physique (i.e. créer des enregistrements pour une quinzaine de caisses alors que seules 13 seront réellement utilisées).
+La création initiale d'un contenant peut se faire de deux manière :
+
+- en passant par le raccourci :guilabel:`créer un contenant` sur le formulaire d'un mobilier, la relation entre les deux étant établie de manière automatique
+- en passant par le raccourci :guilabel:`créer` du bloc des contenants sur la page d'acceuil du projet
+
+La création d'un mobilier permet de s'assurer que la caisse existe bien physiquement tandis la création depuis le projet permet d'inventorier des contenants sans devoir saisir au préalable des mobiliers fictifs. La première solution est à priviligier pour les opérations directement saisies dans le SIA, la seconde est généralement utilisé dans le cadre des versements de collections.
 
 L'essentiel du travail de gestion des contenants est assuré par la personne ayant le rôle de régie pour le projet.
 
