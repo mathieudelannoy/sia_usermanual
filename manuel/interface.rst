@@ -241,6 +241,8 @@ Ce numéro se compose :
 
 Si un de ces numéros est remplacé par un *None*, c'est qu'il n'a pas été saisi dans l'application.
 
+Pour **copier** le numéro dans le presse-papier, il suffit de cliquer sur le bouton situé à droite du numéro. Cela vous permet d'utiliser l'identifiant pour nommer un fichier sans devoir le réécrire manuellement.
+
 Pour plus de détails sur ce sujet, il faut se reporter à la documentation du protocole SRA.
 
 Les exports
