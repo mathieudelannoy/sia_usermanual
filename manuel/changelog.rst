@@ -3,6 +3,18 @@
 Liste des changements
 ==================================
 
+2017
+^^^^
+
+- ajouts de nouveaux champs pour les spécialistes
+- refonte de la page d'acceuil
+- ajout d'un bouton pour copier le numéro SRA
+- création directe d'un contenant dans un projet
+- saisie d'intervalle dans le remplissage rapide du panier
+- création d'une nouvelle fiche d'après un modèle
+- saisie des localisations d'un projet
+- génération automatisé de l'intitulé d'un projet
+
 2015
 ^^^^
 
