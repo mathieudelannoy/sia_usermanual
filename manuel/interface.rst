@@ -183,12 +183,16 @@ Remplir par remplissage rapide
 
 L'utilisateur clique sur le bouton :guilabel:`Remplissage rapide`. Une nouvelle fenêtre s'ouvre dans laquelle il est possible de saisir à la main les différents numéros d'UE qui seront ajoutés au panier, sans que cela supprime ceux qui y figuraient déjà. Cette fonction est pratique dans le cas des relations stratigraphiques puisqu'il n'est alors pas nécessaire de parcourir chacune des fiches UE pour les ajouter à la sélection. 
 
-La saisie des numéros d'UE se fait en tapant chaque numéro à la suite en les séparant par un point-virgule (:kbd:`;`) : *31;64;75*.
+La saisie des numéros d'UE se fait en tapant chaque numéro à la suite en les séparant par un point-virgule (:kbd:`;`), *31;64;75*.
+
+Pour accélérer la saisie, il est possible de définir des intervalles pour sélectionner un groupe d'UEs en indiquant une borne minimale et une borne maximale séparées par le caractère :kbd:`-`, l'intervalle *5-200* remplira le panier avec toutes les UEs dont le numéro est supérieurs ou égaux à 5 mais inférieurs ou égaux à 200.
+
+Les intervalles peuvent se combiner avec des sélections individualisés (*1;3;4-20;23*).
 
 ..	figure:: ./fig/panier_rapide.png 
 	:align: center
 	:scale: 70%
-	
+
 Vider le panier
 """""""""""""""""
 
