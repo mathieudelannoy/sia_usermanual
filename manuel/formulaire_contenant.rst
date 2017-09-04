@@ -53,7 +53,7 @@ En cas de saisie erronée ou superflue, il est possible de supprimer une fiche d
 Localiser
 ----------
 
-Lorsque qu'un contenant est créé, un bloc situé à droite indique qu'il n'y a "``Pas de localisation associé à ce contenant.``. Il faut cliquer sur le lien *Créer une localisation* qui vous propose de choisir l'emplacement du contenant selon 4 niveaux de précision :
+Lorsque qu'un contenant est créé, un bloc situé à droite indique qu'il n'y a ``Pas de localisation associé à ce contenant.``. Il faut cliquer sur le lien *Créer une localisation* qui vous propose de choisir l'emplacement du contenant selon 4 niveaux de précision :
 
 - le bâtiment (CCE, ADS, etc.)
 - la salle
@@ -62,11 +62,13 @@ Lorsque qu'un contenant est créé, un bloc situé à droite indique qu'il n'y a
 
 Une fois que les valeurs localisantes sont sélectionnées, il faut cliquer sur le bouton :guilabel:`Enregistrer`. La page qui s'affiche alors est celle de la localisation, on peut y voir tous les contenants qui y sont situés.
 
-Pour **dissocier** le contenant d'une localisation, il faut :
+Pour **dissocier** un contenant d'une localisation, il suffit de cliquer sur le symbole :guilabel:`X` situé à côté d'elle sur le formulaire.
 
-# placer la localisation dans le panier de sélection
-# ouvrir la page du contenant
-# cliquer sur le bouton :guilabel:`Dissocier`
+Pour **dissocier** plusieurs contenants d'une localisation, il faut :
+
+- placer les contenants dans le panier de sélection
+- ouvrir la page (ou un nouvel onglet) de la localisation
+- cliquer sur le bouton :guilabel:`Dissocier` dans le panier
 
 Exporter
 --------
