@@ -44,6 +44,16 @@ Les informations générales
 - **Date de découverte** : Indique à quelle date le mobilier a été découvert.
 - **Valeur assurance**
 
+- **ue localisation** : Permet de préciser la localisation d'un mobilier sans modifier son appartenance.
+
+.. note::
+    **UE - localisation et appartenance**
+	
+	Un mobilier peut être lié à deux UE lorsque l'UE d'appartenance ne permet de localiser son emplacement de découverte, une céramique appartenant à un niveau de fossé de plusieurs dizaines de mètres de longeur ne permet pas d'étudier précisemment une répartition spatiale. En rajoutant son sondage de découverte comme UE de localisation, son emplacement deivent plus précis.
+	
+	..  figure:: ./fig/mobilier_ue_localisation.png 
+		:align: center
+		:scale: 50%
 
 
 Les champs spécialistes
@@ -169,7 +179,6 @@ Les contenants
 ^^^^^^^^^^^^^^
 
 Ce bloc liste tous les contenants liés au mobilier courant, chaque ligne représente un contenant. L'utilisation du bouton :guilabel:`créer` permet de créer un nouveau contenant qui sera automatiquement lié au mobilier.
-
 
 Les traitements
 ^^^^^^^^^^^^^^^
