@@ -61,20 +61,24 @@ Accéder au SIA
 L'entrée dans l'application se fait via le site internet `sia.archeologie.pasdecalais.fr <http://sia.archeologie.pasdecalais.fr/>`_ dans votre navigateur.
 
 ..	image:: ./fig/accueil_sia_liste_projets.png
-	:scale: 40%
+	:scale: 70%
 	:alt: Page d'accueil du SIA
 	:align: center
 
 Veuillez saisir vos identifiants dans les 2 boîtes situées en bas à droite de la page puis cliquez sur le bouton *Go*.
 
-Cette page se divise en 2 principaux blocs, le premier se compose de 3 colonnes :
+Cette page affiche plusieurs blocs :
 
-- **Assignés** : cette colonne indique les projets sur lesquels l'utilisateur a des droits en écriture
+- à gauche, il s'agit d'une liste de liens vers les projets considérés comme **En cours**
 
-- **En cours** : cette colonne indique les principaux projets ouverts, cette sélection est faite par l'administrateur
+- à droite se trouve la *Carte des projets*, elle affiche la position de tous les projets en cours
 
-- **Récemment modifiés** : cette colonne indique les 10 derniers projets ayant connus une modification, son affichage est automatisé
+- en-dessous de cette carte figurent trois liens
+  
+  - **Gérer les utilisateurs**
+  - **Créer un projet**
+  - **Liste des projets**, elle permet d'obtenir l'intégralité des projets existants
 
-Le second bloc se situe à droite et s'intitule *Carte des projets*, il affiche la position de tous les projets assignés à l'utilisateur.
+- en bas à droite, la barre **Recherche du projet** permet d'obtenir tous les projets contenant le terme voulu.
 
 

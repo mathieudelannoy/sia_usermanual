@@ -232,7 +232,7 @@ L'identifiant SRA
 
 ..	figure:: ./fig/sra_identifiant.png
 	:align: center
-	:scale: 80%
+	:scale: 60%
 
 Afin de se conformer au complément au cahier des charges scientifiques établit par le Service Régional d'Archéologie du Nord-Pas de Calais [#f3]_, le SIA génère automatiquement l'identifiant normalisé pour les mobiliers et les documents en utilisant le contenu des champs et des listes des formulaires.
 
