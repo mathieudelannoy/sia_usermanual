@@ -52,7 +52,7 @@ Pour le personnel du centre, l’ensemble des données du SIA sont accessibles e
 Le présent manuel
 -----------------
 
-Cet ouvrage est en constante évolution afin de toujours refléter les dernières nouveautés developpées. Merci de bien vouloir signaler à l'auteur (morreale.jean.roc@pasdecalais.fr) toute correction ou clarification à apporter.
+Cet ouvrage est en constante évolution afin de toujours refléter les dernières nouveautés developpées. Merci de bien vouloir signaler à l'auteur (delannoy.mathieu@pasdecalais.fr) toute correction ou clarification à apporter.
 
 Cette œuvre est mise à disposition selon les termes de la Licence Creative Commons Attribution - Partage dans les Mêmes Conditions 3.0 France.
 
