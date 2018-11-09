@@ -118,12 +118,12 @@ Vous trouverez ensuite l'ensemble des données importées dans les rubriques *Do
 
 - Les champs 1 à 3 sont obligatoires. S'ils ne sont pas remplis lors de la procédure d'import, un message d'erreur apparaîtra.
 
-- Les champs 4 et 5 sont facultatifs. Si des numeros d'UE sont enregistrés, vous devez les rentrer sous le formation suivant **05-UEXXXX**. Cette syntaxe permettra d'intégrer la relation entre le docuement et le numéro d'UE. **Attention !** Si vous ne respectez pas ce format, l'import des photos se fera, mais vous n'aurez pas le lien. 
-**Aucun message d'erreur n'apparaîtra !**
+- Les champs 4 et 5 sont facultatifs. Si des numeros d'UE sont enregistrés, vous devez les rentrer sous le formation suivant **05-UEXXXX**. Cette syntaxe permettra d'intégrer la relation entre le docuement et le numéro d'UE. **Attention !** Si vous ne respectez pas ce format, l'import des photos se fera, mais vous n'aurez pas le lien. **Aucun message d'erreur n'apparaîtra !**
 
 Pour générer le fichier csv :
 
-- aller chercher le script soit dans le dossier du serveur interne "0_doc_a_supprimer_au_final" de l'opération, si cette dernière a été créée à partir de février 2018, soit dans le dossier ressource dans "S:> Pole Reussites Citoyennes >  Archeologie > documentation > normes > 1 organisation serveur site > 0 doc a supprimer au final". le nom du fichier est "2018_export_mots_cles.jsx";
+- aller chercher le script soit dans le dossier du serveur interne "0_doc_a_supprimer_au_final" de l'opération, si cette dernière a été créée à partir de février 2018, soit dans le dossier ressource dans "S:> Pole Reussites Citoyennes >  Archeologie > documentation > normes > 1 organisation serveur site > 0 doc a supprimer au final". 
+Le nom du fichier est *"2018_export_mots_cles.jsx"*;
 
 - copier/coller le script dans l'onglet d'Adobe Bridge : Edition > préférences > Script de démarrage > afficher les scripts;
 
@@ -131,4 +131,4 @@ Pour générer le fichier csv :
 
 - après la réouverture, saisir le nom du fichier accompagné de l'extension **".csv"** du menu métadonnées > sélection du répertoire. Ne pas oublier de cocher "nom" et "mots-clés".
 
-**Avertissement** : si dans le dossier photo d'Adobe Bridge, vous avez un autre type de fichier (par exemple, celui de la demande de photos), ce dernier apparaîtra dans le fichier d'import csv créant une erreur lors de l'intégration dans le SIA. Il est donc impréatif de le supprimer avant de générer le fichier d'import.
+**Avertissement** : si dans le dossier photo d'Adobe Bridge, il existe un autre type de fichier (par exemple, celui de la demande de photos), ce dernier apparaîtra dans le fichier d'import csv créant une erreur lors de l'intégration dans le SIA. Il est donc impératif de le supprimer avant de générer le fichier d'import.
