@@ -107,3 +107,11 @@ L'export disponible sous le nom *Inventaire de la documentation (pour impression
 - Nature support
 - Format
 - Nombre d’éléments 
+
+Import des données "documents photographiques"
+----------------------------------------------
+
+**Rappels concernant l'enregistrement des photos et des mots-clés dans Adobe Bridge :**
+
+- Les champs 1 à 3 sont obligatoires. S'ils ne sont pas remplis lors de la procédure d'import, un message d'erreur apparaîtra.
+- Les champs 4 et 5 sont facultatifs. Si des numeros d'UE sont enregistrés, vous devez les rentrer sous le formation suivant **05-UEXXXX**. Cette syntaxe permettra d'intégrer la relation entre le docuement et le numéro d'UE. **Attention** Si vous ne respectez pas ce format, l'import des photos se fera, mais vous n'aurez pas le lien. **Aucun message d'erreur n'apparaîtra !**
