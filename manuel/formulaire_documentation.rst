@@ -111,14 +111,14 @@ L'export disponible sous le nom *Inventaire de la documentation (pour impression
 Import des données "documents photographiques"
 ----------------------------------------------
 
-Pour importer massivement des documents relatifs aux photographies du projet, appuyer sur le bouton :guilabel:`Parcourir...` de *Import de photographies* dans la fenêtre *Imports* depuis la page d'accueil du projet, pour sélectionner le fichier csv d'import, puis appuyer sur le bouton :guilabel:`Importer` pour effectuer son intégration dans le SIA.
+Pour importer massivement des documents relatifs aux photographies du projet, appuyer sur le bouton :guilabel:`Parcourir...` de *Import de photographies* dans la fenêtre *Imports* depuis la page d'accueil du projet, pour sélectionner le fichier csv d'import. Appuyer alors sur le bouton :guilabel:`Importer` pour effectuer son intégration dans le SIA.
 Vous trouverez ensuite l'ensemble des données importées dans la rubrique *Documents*, onglet :guilabel:`photographie`.
 
 **Rappels concernant l'enregistrement préalable des photos et des mots-clés dans Adobe Bridge :**
 
 - Les champs 1 à 3 sont obligatoires. S'ils ne sont pas remplis, lors de la procédure d'import, un message d'erreur apparaîtra.
 
-- Les champs 4 et 5 sont facultatifs. Si des numeros d'UE sont enregistrés, vous devez les rentrer sous le format suivant **05-UEXXXX**. Cette syntaxe permettra d'effectuer la relation entre le docuement et le numéro d'UE. **Attention !** Si vous ne respectez pas ce format, l'import des photos se fera, mais vous n'aurez pas le lien. **Aucun message d'erreur n'apparaîtra !**
+- Les champs 4 et 5 sont facultatifs. Si des numeros d'UE sont enregistrés, vous devez les rentrer sous le format suivant **05-UEXXXX**. Cette syntaxe permettra d'effectuer la relation entre le document et le numéro d'UE. **Attention !** Si vous ne respectez pas ce format, l'import des photos se fera, mais vous n'aurez pas le lien. **Aucun message d'erreur n'apparaîtra !**
 
 Pour générer le fichier csv :
 
