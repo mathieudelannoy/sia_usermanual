@@ -122,8 +122,7 @@ Vous trouverez ensuite l'ensemble des données importées dans les rubriques *Do
 
 Pour générer le fichier csv :
 
-- aller chercher le script soit dans le dossier du serveur interne "0_doc_a_supprimer_au_final" de l'opération, si cette dernière a été créée à partir de février 2018, soit dans le dossier ressource dans "S:> Pole Reussites Citoyennes >  Archeologie > documentation > normes > 1 organisation serveur site > 0 doc a supprimer au final". 
-Le nom du fichier est *"2018_export_mots_cles.jsx"*;
+- aller chercher le script soit dans le dossier du serveur interne "0_doc_a_supprimer_au_final" de l'opération, si cette dernière a été créée à partir de février 2018, soit dans le dossier ressource dans "S:> Pole Reussites Citoyennes >  Archeologie > documentation > normes > 1 organisation serveur site > 0 doc a supprimer au final". Le nom du fichier est *"2018_export_mots_cles.jsx"*;
 
 - copier/coller le script dans l'onglet d'Adobe Bridge : Edition > préférences > Script de démarrage > afficher les scripts;
 
