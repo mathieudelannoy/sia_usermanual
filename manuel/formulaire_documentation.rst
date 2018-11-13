@@ -119,7 +119,8 @@ Vous trouverez ensuite l'ensemble des données importées dans la rubrique *Docu
 	:scale: 50%
 
 
-.. note::**Rappels concernant l'enregistrement préalable des photos et des mots-clés dans Adobe Bridge :**
+.. note::
+	  **Rappels concernant l'enregistrement préalable des photos et des mots-clés dans Adobe Bridge :**
 
 - Les champs 1 à 3 sont obligatoires. S'ils ne sont pas remplis, lors de la procédure d'import, un message d'erreur apparaîtra.
 
