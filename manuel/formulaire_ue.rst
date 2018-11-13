@@ -83,7 +83,7 @@ Les termes définissants les relations stratigraphiques pouvant être établies 
    "appartient à + est sur","contient + est sous"
    "appartient à","contient"
 
-L'illustration suivante représente un exemple de coupe stratiggraphique où A et E sont des structures (creusements) tandis que B, C et D sont des niveaux (comblement)
+L'illustration suivante représente un exemple de coupe stratigraphique où A et E sont des structures (creusements) tandis que B, C et D sont des niveaux (comblement)
 
 ..	figure:: ./fig/ue_stratigraphie_schema.png
 	:align: center
