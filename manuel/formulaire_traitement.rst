@@ -15,6 +15,9 @@ Renseigner
 
 La création d'un traitement ne peut se faire qu'en passant par le bloc *Traitements* d'une fiche mobilier existante et son bouton :guilabel:`créer`. Il est possible d'associer plusieurs mobiliers à un traitement en utilisant le panier de sélection.
 
+..  note::
+     **la création de multiples traitements**, lors d'une même session, pour le même mobilier est facilité par le bouton :guilabel:`enregistrer et créer`. En effet, si l'utilisateur doit répéter les traitements pour un seul objet, la saisie est simplifiée par la reprise des informations de la fiche du traitement source dans la nouvelle fiche créer à partir de l'enregistrement par :guilabel:`enregistrer et créer`. Les données reprises seront les types des traitements renseignés en niveau 1 et niveau 2, la date du traitement ainsi que le nom du référent. 
+
 Description des champs
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -48,3 +51,5 @@ L'export inclut les colonnes suivantes :
 - Date de réalisation
 - Individus
 - Numéros de mobilier
+
+
