@@ -268,5 +268,19 @@ Voici la liste des exports tabulés actuellement réalisables, il faut se réfé
 	- Inventaire de la documentation 
 	- Inventaire de la documentation - impression
 
+Edition d'un bordereau de versement
+---------------------------------------
+
+L'édition des bordereaux de versement en PDF est possible à partir de la page d'accueil du projet.
+Le Bouton "Bordereau de versement" permet la création et le remplissage automatique du document.
+
+..	figure:: ./fig/bouton_bordereau_versement.png
+	:align: center
+	:scale: 60%
+
+Une fois l'appui du bouton, une nouvelle fenêtre (pop-up) apparaît demandant de renseigner deux champs : 
+
+
+
 .. [#f2] En tout cas les administrateurs du SIA.
 .. [#f3] Protocole pour la conservation, le conditionnement, l'inventaire et la remise du mobilier et de la documentation scientifique issus des opérations archéologiques (version du 01 octobre 2012).
