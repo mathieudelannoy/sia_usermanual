@@ -114,6 +114,12 @@ Import des données "documents photographiques"
 Pour importer massivement des documents relatifs aux photographies du projet, appuyer sur le bouton :guilabel:`Parcourir...` de *Import de photographies* dans la fenêtre *Imports* depuis la page d'accueil du projet, pour sélectionner le fichier csv d'import. Appuyer alors sur le bouton :guilabel:`Importer` pour effectuer son intégration dans le SIA.
 Vous trouverez ensuite l'ensemble des données importées dans la rubrique *Documents*, onglet :guilabel:`photographie`.
 
+..	figure:: ./fig/import_csv_photographie.png 
+	:align: center
+	:scale: 50%
+
+
+
 **Rappels concernant l'enregistrement préalable des photos et des mots-clés dans Adobe Bridge :**
 
 - Les champs 1 à 3 sont obligatoires. S'ils ne sont pas remplis, lors de la procédure d'import, un message d'erreur apparaîtra.
