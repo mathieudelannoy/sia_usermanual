@@ -119,8 +119,7 @@ Vous trouverez ensuite l'ensemble des données importées dans la rubrique *Docu
 	:scale: 50%
 
 
-.. note::
-   **Rappels concernant l'enregistrement préalable des photos et des mots-clés dans Adobe Bridge :**
+.. note::**Rappels concernant l'enregistrement préalable des photos et des mots-clés dans Adobe Bridge :**
 
 - Les champs 1 à 3 sont obligatoires. S'ils ne sont pas remplis, lors de la procédure d'import, un message d'erreur apparaîtra.
 
@@ -137,4 +136,4 @@ Pour générer le fichier csv :
 - après la réouverture, saisir le nom du fichier accompagné de l'extension **".csv"** du menu métadonnées > sélection du répertoire. Ne pas oublier de cocher "nom" et "mots-clés".
 
 .. warning::
-**Avertissement** : si dans le dossier photo d'Adobe Bridge, il existe un autre type de fichier (par exemple, celui de la demande de photos), ce dernier apparaîtra dans le fichier d'import csv créant une erreur lors de son intégration dans le SIA. **Il est donc impératif de le supprimer avant de générer le fichier d'import**.
+	**Avertissement** : si dans le dossier photo d'Adobe Bridge, il existe un autre type de fichier (par exemple, celui de la demande de photos), ce dernier apparaîtra dans le fichier d'import csv créant une erreur lors de son intégration dans le SIA. **Il est donc impératif de le supprimer avant de générer le fichier d'import**.
