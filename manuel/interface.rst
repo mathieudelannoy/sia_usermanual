@@ -278,8 +278,13 @@ Le Bouton "Bordereau de versement" permet la création et le remplissage automat
 	:align: center
 	:scale: 60%
 
-Une fois l'appui du bouton, une nouvelle fenêtre (pop-up) apparaît demandant de renseigner deux champs : 
+Une fois l'appui sur ce bouton, une nouvelle fenêtre (pop-up) apparaît demandant de renseigner deux champs. 
 
+..	figure:: ./fig/pop_up_bordereau_versement.png
+	:align: center
+	:scale: 20%
+
+Renseignez les noms du Responsable du transfert et du Responsable CCE pour que ces derniers apparaissent en bas du bordereau à la suite du descriptif administratif de l'opération (Nom et année de l'opération, le type d'opération, l'adresse et les réfences cadastrales...) et de l'inventaire des contenants versés.
 
 
 .. [#f2] En tout cas les administrateurs du SIA.
