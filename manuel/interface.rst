@@ -286,6 +286,8 @@ Une fois l'appui sur ce bouton, une nouvelle fenêtre (pop-up) apparaît demanda
 
 Renseignez les noms du Responsable du transfert et du Responsable CCE pour que ces derniers apparaissent en bas du bordereau à la suite du descriptif administratif de l'opération (nom et année de l'opération, le type d'opération, l'adresse et les références cadastrales...) et de l'inventaire des contenants versés.
 
+La possibilité d'éditer des bordereaux est accordé aux RO, adminsitrateurs et régisseurs.
+
 
 .. [#f2] En tout cas les administrateurs du SIA.
 .. [#f3] Protocole pour la conservation, le conditionnement, l'inventaire et la remise du mobilier et de la documentation scientifique issus des opérations archéologiques (version du 01 octobre 2012).
