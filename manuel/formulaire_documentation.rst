@@ -108,7 +108,7 @@ L'export disponible sous le nom *Inventaire de la documentation (pour impression
 - Format
 - Nombre d’éléments 
 
-Import des données "documents photographiques"
+Importer des données "documents photographiques"
 ----------------------------------------------
 
 Pour importer massivement des documents relatifs aux photographies du projet, appuyer sur le bouton :guilabel:`Parcourir...` de *Import de photographies* dans la fenêtre *Imports* depuis la page d'accueil du projet, pour sélectionner le fichier csv d'import. Appuyer alors sur le bouton :guilabel:`Importer` pour effectuer son intégration dans le SIA.
