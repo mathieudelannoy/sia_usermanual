@@ -268,7 +268,7 @@ Voici la liste des exports tabulés actuellement réalisables, il faut se réfé
 	- Inventaire de la documentation 
 	- Inventaire de la documentation - impression
 
-Edition d'un bordereau de versement
+L'édition d'un bordereau de versement
 ---------------------------------------
 
 L'édition des bordereaux de versement en PDF est possible à partir de la page d'accueil du projet.
@@ -276,13 +276,13 @@ Le Bouton "Bordereau de versement" permet la création et le remplissage automat
 
 ..	figure:: ./fig/bouton_bordereau_versement.png
 	:align: center
-	:scale: 60%
+	:scale: 80%
 
 Une fois l'appui sur ce bouton, une nouvelle fenêtre (pop-up) apparaît demandant de renseigner deux champs. 
 
 ..	figure:: ./fig/pop_up_bordereau_versement.png
 	:align: center
-	:scale: 20%
+	:scale: 50%
 
 Renseignez les noms du Responsable du transfert et du Responsable CCE pour que ces derniers apparaissent en bas du bordereau à la suite du descriptif administratif de l'opération (Nom et année de l'opération, le type d'opération, l'adresse et les réfences cadastrales...) et de l'inventaire des contenants versés.
 
