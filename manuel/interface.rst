@@ -272,7 +272,7 @@ L'édition d'un bordereau de versement
 ---------------------------------------
 
 L'édition des bordereaux de versement en PDF est possible à partir de la page d'accueil du projet.
-Le Bouton "Bordereau de versement" permet la création et le remplissage automatique du document.
+Le Bouton :guilabel:`Bordereau de versement` permet la création et le remplissage automatique du document.
 
 ..	figure:: ./fig/bouton_bordereau_versement.png
 	:align: center
@@ -284,7 +284,7 @@ Une fois l'appui sur ce bouton, une nouvelle fenêtre (pop-up) apparaît demanda
 	:align: center
 	:scale: 50%
 
-Renseignez les noms du Responsable du transfert et du Responsable CCE pour que ces derniers apparaissent en bas du bordereau à la suite du descriptif administratif de l'opération (Nom et année de l'opération, le type d'opération, l'adresse et les réfences cadastrales...) et de l'inventaire des contenants versés.
+Renseignez les noms du Responsable du transfert et du Responsable CCE pour que ces derniers apparaissent en bas du bordereau à la suite du descriptif administratif de l'opération (nom et année de l'opération, le type d'opération, l'adresse et les références cadastrales...) et de l'inventaire des contenants versés.
 
 
 .. [#f2] En tout cas les administrateurs du SIA.
