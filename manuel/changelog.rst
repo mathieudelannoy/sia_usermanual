@@ -3,6 +3,12 @@
 Liste des changements
 ==================================
 
+2018
+^^^^
+
+- Import des données "documents photographiques" par lot
+- Création de multiples traitements par continuité des enregistrements
+
 2017
 ^^^^
 
