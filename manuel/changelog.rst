@@ -7,6 +7,7 @@ Liste des changements
 ^^^^
 
 - Import des données "documents photographiques" par lot
+- Modification de l'interface d'accueil du projet par l'ajout d'un bouton "Import de photographies"
 - Création de multiples traitements par continuité des enregistrements
 
 2017
