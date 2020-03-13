@@ -96,7 +96,7 @@ Les relations qui en découlent sont les suivantes :
    :widths: 40, 50
 
    C *sur* B,B *sous* C
-   B et C *appartient à la structure* A,A *contient le comblement* B et C
+   B et C *appartiennent à la structure* A,A *contient les comblements* B et C
    E *coupé par* A, A *a coupé* E
    D *appartient à la structure* E, E *contient le comblement* D
 
