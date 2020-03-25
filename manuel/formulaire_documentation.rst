@@ -121,7 +121,8 @@ Vous trouverez ensuite l'ensemble des données importées dans la rubrique *Docu
 
 .. note::
     **Rappels concernant l'enregistrement préalable des photos et des mots-clés dans Adobe Bridge**. Les champs 1 à 3 sont obligatoires. S'ils ne sont pas remplis, lors de la procédure d'import, un message d'erreur apparaîtra. Les champs 4 et 5 sont facultatifs. Si des numeros d'UE sont enregistrés, vous devez les rentrer sous le format suivant **05-UE XXXX**. Cette syntaxe permettra d'effectuer la relation entre le document et le numéro d'UE. **Attention !** Si vous ne respectez pas ce format, l'import des photos se fera, mais vous n'aurez pas le lien. **Aucun message d'erreur n'apparaîtra !**
-    
+
+.. warning::
     **Attention également à l'ordre de saisie des mots-clés depuis bridge 2020**. Depuis cette dernière version, l'ordre de saisie des mots-clés constitue également une métadonnée et influe sur les enregistrements des IPTC. Il faut impérativement respecter l'ordre proposé par la liste des mots-clés (01-champs, puis 02-orientation, puis 03-sujet principal...) sous peine de créer, par la suite, un fichier d'export csv inexploitable pour le module d'import du SIA. 
     Par ailleurs, il ne faut pas cocher les titres des rubriques des mots-clés. Seuls, les mots-clés sont nécessaires. 
     Enfin, il est possible d'enregistrer des mots-clés non présents dans la liste proposée par le script. Cependant, ces derniers ne seront pas pris en compte par la requête d'import du SIA et ne seront donc pas enregistrés dans le SIA.
