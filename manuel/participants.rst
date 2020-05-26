@@ -6,9 +6,10 @@ Projet porté par le Centre départemental d’Archéologie, Conseil général d
 Équipe Centre départemental d’Archéologie :
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Jean-Luc Marcy, directeur 
-- Sophie François, chef du service des archives du sol
+- Jean-Luc Marcy, Directeur 
+- Sophie François, Chef du service des Archives du Sol
 - Jean-Roc Morreale, chargé du système d’informations archéologiques
+- Mathieu Delannoy, Chargé du système d’informations archéologiques
 
 Équipe Direction des Systèmes d’information :
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -21,11 +22,13 @@ Projet porté par le Centre départemental d’Archéologie, Conseil général d
 Équipe Camptocamp :
 ^^^^^^^^^^^^^^^^^^^
 
-- Frédéric Jacon, chef de projet
-- Bruno Binet, ingénieur logiciel
-- Éric Lemoine, leader technique
-- Pierre Maudit, géomaticien développeur
-- François Van Der Biest, géomaticien, analyste développeur
+- Frédéric Jacon, Chef de projet
+- Bruno Binet, Ingénieur logiciel
+- Éric Lemoine, Leader technique
+- Pierre Maudit, Géomaticien développeur
+- François Van Der Biest, Géomaticien, analyste développeur
+- Julien Waddle, Géomaticien développeur
+- Antoine Abt, développeur
 
 
 Merci à nos testeurs émérites qui par leur utilisation intensive et leurs rapports de bugs circonstanciés ont permis de stabilier cette application : Jérémie Chombard, Marie-Liesse De Noblet, Cyril Lachaud et Laurent Wilket.
