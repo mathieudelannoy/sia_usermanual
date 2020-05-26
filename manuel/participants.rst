@@ -6,8 +6,9 @@ Projet porté par le Centre départemental d’Archéologie, Conseil général d
 Équipe Centre départemental d’Archéologie :
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Jean-Luc Marcy, Directeur 
-- Sophie François, Chef du service des Archives du Sol
+- Jean-Luc Marcy, DIrecteur du Pôle Réussites citoyennes
+- Sophie François, Directrice de l'Archéologie
+- Armelle Masse, Chef du service des Archives du Sol
 - Jean-Roc Morreale, chargé du système d’informations archéologiques
 - Mathieu Delannoy, Chargé du système d’informations archéologiques
 
