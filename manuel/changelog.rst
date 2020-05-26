@@ -9,6 +9,13 @@ Liste des changements
 - Augmentation du nombre de caractères pour le champ de saisie "résumé scientifique"
 - Nouvel inventaire des UE prenant en compte la relation "structure" et "comblement" (inventaire destiné pour le rapport sur le modèle de ceux utilisés pour les projets "BA 103")
 
+*Changements à venir :*
+
+- Création d'un champ "Thésaurus chronologique" dans la fiche "projet"
+- Création d'un champ "Pourcentage de fouille" dans la fiche "projet"
+- Remplacement dans la base des variables "appartient à + est sur" / "contient + est sous" par "appartient à la structure" et "contient le comblement"
+
+
 2019
 ^^^^
 
