@@ -2,6 +2,25 @@
 
 Liste des changements
 ==================================
+2020
+^^^^
+
+- Possibilité dans le module recherche, d'identifier les mobiliers iluustrés d'une photo
+- Augmentation du nombre de caractères pour le champ de saisie "résumé scientifique"
+- Nouvel inventaire des UE prenant en compte la relation "structure" et "comblement" (inventaire destiné pour le rapport sur le modèle de la BA 103)
+
+2019
+^^^^
+
+- Pré-saisie des champs "sérieé et "dossier" pour les fiches "photographies" et "arrêtés"
+- Correction du modèle de bordereau de versement
+- Ajouts de champs dans l'inventaire du mobilier lithique
+- Correction d'un bug lors lors de la création d'un traiteùent sur un document
+- Saisie automosatisée du champ "détermination" pour le mobilier archéozoologique, anthropologique et lithique
+- Affichage des rôles et des fonctions des individus dans les fiches "projet"
+- Intégration d'une photo pour les mobiliers remarquables
+- Classification par ordre alphabétique pour la présentation des projets (par nom de commune)
+- Adaptation des champs de saisie au contenu dans la fiche "projet"
 
 2018
 ^^^^
