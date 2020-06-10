@@ -11,7 +11,7 @@ Les agents du Centre départemental d'Archéologie du  CG62 ont systématiquemen
 - les personnes affiliées à des services archéologiques conventionnés
 - les intervenants externes contractualisés sur un projet (cf. :ref:`def-projet`)
 
-Une demande de compte doit être formulée par email à l'`administrateur <admin.sia@cg62.fr>`_ avec pour sujet "*Demande de compte*". Merci de bien vouloir indiquer dans votre message les informations suivantes :
+Une demande de compte doit être formulée par email à l'`administrateur <archeologie@pasdecalais.fr>`_ avec pour sujet "*Demande de compte*". Merci de bien vouloir indiquer dans votre message les informations suivantes :
 
 - vos noms et prénoms en toutes lettres
 - votre organisme d'affiliation et votre fonction
