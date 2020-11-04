@@ -8,12 +8,11 @@ Liste des changements
 - Possibilité dans le module "recherche" d'identifier les mobiliers illustrés d'une photo
 - Augmentation du nombre de caractères pour le champ de saisie "résumé scientifique"
 - Nouvel inventaire des UE prenant en compte la relation "structure" et "comblement" (inventaire destiné pour le rapport sur le modèle de ceux utilisés pour les projets "BA 103")
-
-*Changements à venir :*
-
-- Création d'un champ "Thésaurus chronologique" dans la fiche "projet"
 - Création d'un champ "Pourcentage de fouille" dans la fiche "projet"
 - Remplacement dans la base des variables "appartient à + est sur" / "contient + est sous" par "appartient à la structure" et "contient le comblement"
+- Création d'un nouvel export "constat d'état" permettant d'éditer un inventaire des constats d'état et de l'ensemble des traitements effectués sur les mobiliers remarquables
+- Réorganisation des phases dans l'interface par un classement chronologique
+- Création d'un nouvel onglet "fiche entités" pour la saisie et l'édition des fiches entités archéologiques intégrables dans les rapports d'opérations  
 
 
 2019
