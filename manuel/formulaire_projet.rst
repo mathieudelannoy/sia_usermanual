@@ -126,6 +126,7 @@ Fiches entités
 Cette vignette comprend :
 
 - un décompte du nombre total de fiches entités archéologiques
+- un découpage par fiches entités créées avec la numérotation d'enregistrement de chaque fiche
 
 
 Renseigner
