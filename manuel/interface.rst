@@ -26,26 +26,26 @@ Les principaux formulaires existants  :
 #. contenant
 #. documentation
 
-Le principe des blocs
-^^^^^^^^^^^^^^^^^^^^^
+Les vignettes
+^^^^^^^^^^^^^
 
-Les blocs sont présents dans la quasi-totalité des formulaires. Ils regroupent des données sous une forme synthétique (décompte, résumé, etc.) et permettent d'accéder à d'autres formulaires de manière rapide.
+Les vignettes sont présentes dans la quasi-totalité des formulaires. Elles regroupent des données sous une forme synthétique (décompte, résumé, etc.) et permettent d'accéder à d'autres formulaires de manière rapide.
 
-Un bloc peut disposer des 2 fonctions suivantes :
+une vignette peut disposer des 2 fonctions suivantes :
 
 - :guilabel:`Voir tout` : ce bouton affiche une page de résultat listant tous les enregistrements du même type.
 
 - :guilabel:`Créer` : ce lien ouvre un nouveau formulaire vide prêt à être renseigné.
 
-Le contenu du bloc se compose d'une série de liens, leur apparition est dynamique et conditionnée par les enregistrements effectués dans le projet. Un clic sur un lien peut amener :
+Le contenu d'une vignette se compose d'une série de liens, leur apparition est dynamique et conditionnée par les enregistrements effectués dans le projet. Un clic sur un lien peut amener :
 
 * sur une page de résultat dans le cas d'un lien de décompte (p. ex. pour le mobilier *céramique [14]*)
 * directement sur la page de l'enregistrement dans le cas d'un lien de relation (*Abandon (462 / 480)*)
 
 .. note::
-    **Faire apparaître tous les blocs**
+    **Faire apparaître toutes les vignettes d'une fiche**
     
-   Pour faire apparaître toutes les blocs (les bulles colorées pour les mesures, relations, contenants, etc.), il faut enregistrer la fiche de formulaire. Tant que la fiche ne l'a pas été au moins une fois, le formulaire se limitera aux champs et listes minimaux.
+   Pour faire apparaître toutes les vignettes (champs spécialistes ou interelation...), il faut enregistrer la fiche de formulaire. Tant que la fiche ne l'a pas été au moins une fois, le formulaire se limitera aux champs et listes minimaux.
 
 Le cadre cartographique
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -113,8 +113,8 @@ Pour lancer la recherche, il faut :
 
 Pour des recherches plus avancées, il faut cliquer sur *recherche du projet* (voir la section :ref:`recherche-moteur`).
 
-Les onglets
-^^^^^^^^^^^^
+Les onglets de l'explorateur 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Un des principaux intérêts de travailler en utilisant un navigateur internet est la possibilité d'exploiter le principe des onglets : au lieu de multiplier les fenêtres et de surcharger l'espace de travail, il est possible d'avoir plusieurs formulaires ouverts en même temps.
 
