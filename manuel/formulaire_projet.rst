@@ -5,7 +5,7 @@ Le formulaire Projet
 Description
 -----------
 
-Cette page ainsi que les différents blocs livrent une vision d'ensemble du projet et de ses enregistrements à tous les participants. Il s'agit du premier écran affiché lorsque l'utilisateur ouvre dans un projet.
+Cette page ainsi que les différents vignettes livrent une vision d'ensemble du projet et de ses enregistrements à tous les participants. Il s'agit du premier écran affiché lorsque l'utilisateur ouvre dans un projet.
 
 Sa fonction est de mettre à disposition les informations générales (tant administratives que géographiques) et de servir de point de départ pour les actions des contributeurs.
 
@@ -36,7 +36,7 @@ Consulter
 Les informations générales
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Elles peuvent être consultées par tous les utilisateurs en cliquant sur le bouton : :guilabel:`voir les infos`, un tableau apparaît alors sur la page courante où seules les données saisies apparaîssent . Pour ne plus les afficher, il suffit de cliquer une nouvelle fois sur le même bouton.
+Elles peuvent être consultées par tous les utilisateurs en cliquant sur le bouton : :guilabel:`Informations/individus`,  la page courante affiche alors soit la liste des individus rattachés à cette opération, soit l'ensemble des données descriptives du projet. Le bascuelemnt de l'un à l'autre s'effectue à chaque clique sur le bouton.
 
 Les informations géographiques
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -59,7 +59,7 @@ Les références parcellaires sont fournies par le référent SIG et sont résum
 Unités d'Enregistrement
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Ce bloc comprend :
+Cette vignette UE comprend :
 
 - un décompte du nombre total d'UE du projet
 - un découpage par type d'UE avec un décompte du nombre d'enregistrements UE concernés
@@ -67,7 +67,7 @@ Ce bloc comprend :
 Mobilier
 ^^^^^^^^^
 
-Ce bloc comprend :
+Cette vignette comprend :
 
 - un décompte du nombre total d'enregistrements mobiliers du projet
 - un découpage par matière et type avec un décompte du nombre d'enregistrements mobiliers concernés
@@ -75,7 +75,7 @@ Ce bloc comprend :
 Contenants
 ^^^^^^^^^^^
 
-Ce bloc comprend :
+Cette vignette comprend :
 
 - un décompte du nombre total de contenants du projet
 - un découpage par type de matière contenu et par type de contenant avec un décompte du nombre d'enregistrements concernés
@@ -83,7 +83,7 @@ Ce bloc comprend :
 Localisation
 ^^^^^^^^^^^^
 
-Ce bloc comprend :
+Cette vignette comprend :
 
 - une liste des localisations liées au projet
 - un décompte du nombre de contenants à chaque localisation (ou sans localisation)
@@ -91,7 +91,7 @@ Ce bloc comprend :
 Phase
 ^^^^^
 
-Ce bloc comprend :
+Cette vignette comprend :
 
 - un décompte du nombre total de phase du projet entre
 - un découpage par phase avec un décompte du nombre d'enregistrements qui lui sont liés
@@ -99,26 +99,33 @@ Ce bloc comprend :
 Documents
 ^^^^^^^^^^
 
-Ce bloc comprend :
+Cette vignette comprend :
 
 - un décompte du nombre total de documents du projet
 - un découpage par type de document avec un décompte du nombre d'enregistrements concernés
 
 Traitements
-^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^
 
-Ce bloc comprend :
+Cette vignette comprend :
 
 - un décompte du nombre total de traitements du projet
 - un découpage par type de traitements avec un décompte du nombre d'enregistrements concernés
 
 Régies
-^^^^^^^^^^^^
+^^^^^^
 
-Ce bloc comprend :
+Cette vignette comprend :
 
 - un décompte du nombre total de régie du projet
 - un découpage par type de régie avec un décompte du nombre d'enregistrements concernés
+
+Fiches entités
+^^^^^^^^^^^^^^
+
+Cette vignette comprend :
+
+- un décompte du nombre total de fiches entités archéologiques
 
 
 Renseigner
@@ -126,7 +133,7 @@ Renseigner
 
 Ces informations sont à saisir dès qu'elles sont disponibles par le responsable du projet ou par les services administratifs, l'interface de saisie est accessible via le lien :guilabel:`éditer le projet`.
 
-Les informations saisies sont lisibles par l'ensemble des utilisateurs du SIA en cliquant sur le bouton :guilabel:`voir les infos`.
+Les informations saisies sont lisibles par l'ensemble des utilisateurs du SIA en cliquant sur le bouton :guilabel:`Informations/Individus`.
 
 Description des champs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
