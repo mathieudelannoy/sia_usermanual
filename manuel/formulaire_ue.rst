@@ -45,7 +45,7 @@ Les informations générales
 - **Plan** : Forme géométrique générale d'une structure en plan
 - **Profil fond** : Forme géométrique générale du fond d'une structure
 - **Profil paroi** : Forme géométrique générale de la paroi verticale d'une structure
-- **Pourcentage fouille** : Part fouillée de l'UE. LA rubrique est par défaut "non renseigné". choix possible : 0% / 25% / 50% / 75% / 100%
+- **Pourcentage fouille** : Part fouillée de l'UE. La rubrique est par défaut "non renseignée". Choix possibles : 0% / 25% / 50% / 75% / 100%.
 - **Chronologie début** : liste présentant les grandes périodes chronologiques (Moyen Âge, Néolithique, etc.) auxquelles peut se rattacher le début de l'UE.
 - **Sous-chronologie début** : liste présentant les sous-découpages des périodes chronologiques
 - **Chronologie fin** : liste présentant les grandes périodes chronologiques (Moyen Âge, Néolithique, etc.) auxquelles peut se rattacher la fin de l'UE.
