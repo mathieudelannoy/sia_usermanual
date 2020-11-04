@@ -29,9 +29,9 @@ Le responsable d'opération saisit les informations scientifiques. Une fois l'en
 Consulter
 ---------
 
-..	figure:: ./fig/accueil_projet.png 
+..	figure:: ./fig/sia_vignettes.png 
 	:scale: 30%
-	:alt: Page d'acceuil du projet
+	:alt: Page d'accueil du projet
 
 Les informations générales
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
