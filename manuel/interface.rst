@@ -261,10 +261,21 @@ Voici la liste des exports tabulés actuellement réalisables, il faut se réfé
 	- Inventaire des UE - impression
 	- Inventaire des UE - avec géométrie
 	- Inventaire stratigraphique simplifié
+	- Export comblements géologiques
+	- Inventaire UE / présentation pour rapport
 	- Inventaire des contenants 
 	- Inventaire du mobilier 
 	- Inventaire du mobilier - impression
 	- Inventaire du mobilier - avec géométrie
+	- Inventaire du mobilier - anthropologie uniquement
+	- Inventaire du mobilier - archéozoologie uniquement
+	- Inventaire du mobilier - céramique uniquement
+	- Inventaire du mobilier - lapidaire uniquement
+	- Inventaire du mobilier - lithique uniquement
+	- Inventaire du mobilier - monnaie uniquement
+	- Inventaire des traitements
+	- Export constat d'état
+	- Export Fiches entités archéologiques
 	- Inventaire de la documentation 
 	- Inventaire de la documentation - impression
 
